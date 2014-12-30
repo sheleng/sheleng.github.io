@@ -1,4 +1,4 @@
 sheleng.github.io
 =================
 
-my blog
+personal blog
