@@ -426,11 +426,11 @@ Small Device Styles
 .scroll-to-top {
   background: #363636;
   color: #FFF;
-  bottom: 4%;
+  bottom: 11%;
   cursor: pointer;
   display: none;
   position: fixed;
-  right: 50px;
+  right: 60px;
   z-index: 999;
   font-size: 16px;
   text-align: center;
