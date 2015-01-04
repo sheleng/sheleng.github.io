@@ -4,7 +4,12 @@ title: 读书
 books: active
 ---
 
-{% for book in page.books %}
+{% for book_list in site.categories.books %}
+    {% capture this_year %}{{ book_list.date | date: "%Y" }}{% endcapture %}
+    {% capture this_month %}{{ book_list.date | date: "%m" }}{% endcapture %}
+    {% capture next_year %}{{ book_list.previous.date | date: "%Y" }}{% endcapture %}
+    {% capture next_month %}{{ book_list.previous.date | date: "%m" }}{% endcapture %}
+        {% for book in book_list %}
         <div class="col-md-12">
           <div class="panel panel-primary">
             <div class="panel-heading">{{ book.title }}</div>
@@ -18,7 +23,11 @@ books: active
                     <tbody>
                       <tr><td style="width:80px;">作者</td><td>{{ book.author }}</td></tr>
                       <tr><td>出版商</td><td>{{ book.publisher }}</td></tr>
-                      <tr><td>语言</td><td>{{ book.language }}</td></tr>                      
+                      <tr><td>语言</td><td>{{ book.language }}</td></tr>
+                      <tr>
+                        <td>链接</td><td>
+                        <a href="{{ book.link }}" title="{{ book.link }}">图书链接</a>
+                      </td></tr>
                       <tr>
                         <td>状态</td>
                         <td>
@@ -38,4 +47,5 @@ books: active
             </div>
           </div>      
         </div>
-{% endfor %}
+      {% endfor %}
+        {% endfor %}
