@@ -12,12 +12,12 @@ tools: active
       	  <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>      	  
       	  <span class="post_date">
           	<em>{{post.day}}</em>
-          	{{post.year-month}}
-          	<div>
-          		<p>{{post.description}}</p>
-          		<p><a href="{{post.url}}">阅读全部...</a></p>
-          	</div>
+          	{{post.year-month}}          	
           </span>
+          <div>
+          	<p>{{post.description}}</p>
+          	<p><a href="{{post.url}}">阅读全部...</a></p>
+          </div>
       	</li>        
       {% endfor %}
     {% endif %}
