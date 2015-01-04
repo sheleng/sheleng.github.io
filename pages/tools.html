@@ -6,9 +6,9 @@ tools: active
 
 <div>
   {% for category in site.categories %}
-    {% if category[0] == 'tools' %}    
+    {% if category[0] == 'tools' %}
       {% for post in category[1] %}
-        <a href="{{ post.url}}">{{ post.title }}</a>
+        <a href="{{ post.url}}"><h3>{{ post.title }}</h3></a>
         <p>{{post.description}}</p>
         <p>发表时间：{{post.date}},<a href="{{post.url}}">阅读全部...</a></p>
         <hr>
