@@ -8,9 +8,16 @@ tools: active
   {% for category in site.categories %}
     {% if category[0] == 'tools' %}
       {% for post in category[1] %}
-        <a href="{{ post.url}}"><h3>{{ post.title }}</h3></a>
-        <p>{{post.description}}</p>
-        <p>发表时间：{{post.date}},<a href="{{post.url}}">阅读全部...</a></p>
+      	<div>
+      	  <a href="{{ post.url}}"><h3>{{ post.title }}</h3></a>      	  
+      	</div>
+      	<span class="date">{{post.date}}</span>
+      	<div>
+      	  <p>{{post.description}}</p>
+      	</div>
+      	<div>
+      	  <p><a href="{{post.url}}">阅读全部...</a></p>
+      	</div>
         <hr>
       {% endfor %}
     {% endif %}
