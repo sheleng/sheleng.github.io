@@ -4,8 +4,6 @@ title: 首页
 index: active
 ---
 
-<div id="main_content_wrap" class="outer">
-  <section id="main_content" class="inner">
-    <h2>博客构建中，敬请期待。。。</h2>
-  </section>  
-</div>  
+{% for category in site.categories %}<!-- 这里是读书、生活、科研、技术、绘画-->
+  <li><a href="#{{ category | first }}" data-toggle="tab">{{ category[0] }}</a></li>
+{% endfor %}  
