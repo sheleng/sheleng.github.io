@@ -4,14 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" charset='utf-8'>
     <meta name="description" content="Sheleng Blog : Learn and live.">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../public/css/style.css">
     <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" tyep="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" tyep="text/css" href="../public/css/bootstrap.min.css">
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="../bootstrap/js/jquery.min.js"></script>
+    <script src="../public/js/jquery.min.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="../bootstrap/js/bootstrap.min.js"></script> 
+    <script src="../public/js/bootstrap.min.js"></script> 
+    <script src="../public/main.js"></script>
 
     <title>{{page.title}}</title>
   </head>
@@ -29,24 +30,24 @@
               <a href="../index.html">首页</a>
             </li>
             <li class={{page.blogs}}>
-              <a href="../blogs.html">博文</a>
+              <a href="../pages/blogs.html">博文</a>
             </li>
             <li class={{page.repost}}>
-              <a href="../repost.html">转帖</a>
+              <a href="../pages/repost.html">转帖</a>
             </li>
             <li class={{page.tools}}>
-              <a href="../tools.html">工具</a>
+              <a href="../pages/tools.html">工具</a>
             </li>
-            <li class={{page.state}}>
-              <a href="../history.html">历史</a>
+            <li class={{page.archive}}>
+              <a href="../pages/archive.html">归档</a>
             </li>
             <li class={{page.about}}>
-              <a href="../about.html">关于</a>
+              <a href="../pages/about.html">关于</a>
             </li>
             <li class={{page.links}}>
-              <a href="../links.html">邻居</a>
+              <a href="../pages/links.html">邻居</a>
             </li>          
-            <a id="forkme_banner" href="https://github.com/Sheleng">View on GitHub</a>
+            <a id="github_banner" href="https://github.com/Sheleng">View on GitHub</a>
           </ul>
         </div>
       </div>
@@ -56,19 +57,24 @@
 
   <!-- Main Content
   ================================================== -->
-  {{content}}
-
+  
+  <section class="container">
+    <div class="container-wrap">
+      {{content}}
+    </div>
+  </section>
+  
   <!-- Scroll-to-top
   ================================================== -->  
-  <div class="scroll-to-top" style="display: block;">
-    <a href="javascript:scroll(0,0)">Top</a>
+  <!--
+  <div class="go_top" id="go_top_btn" style="display: block;">Top
   </div>
+  -->
+
   <!-- Footer
-  ================================================== -->  
-  <div id="footer_wrap" class="outer">
-      <footer class="inner">        
-        <p align="center">版权声明：自由转载-非商用-非衍生-保持署名<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">（创意共享3.0许可证）</a></p>       
-      </footer>
-  </div>  
+  ================================================== --> 
+  <footer>
+    <p align="center">版权声明：自由转载-非商用-非衍生-保持署名<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">（创意共享3.0许可证）</a></p> 
+  </footer>
   </body>
 </html>
