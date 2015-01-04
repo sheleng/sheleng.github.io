@@ -3,8 +3,16 @@ layout: default
 title: 工具
 tools: active
 ---
-<div id="main_content_wrap" class="outer">
-  <section id="main_content" class="inner">
-  		<h2>工具页面待构建，敬请期待。。。</h2>
-  </section>
+
+<div>
+  {% for category in site.categories %}
+    {% if category[0] == 'tools' %}    
+      {% for post in category[1] %}
+        <a href="{{ post.url}}">{{ post.title }}</a>
+        <p>{{post.description}}</p>
+        <p>发表时间：{{post.date}},<a href="{{post.url}}">阅读全部...</a></p>
+        <hr>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
 </div>
