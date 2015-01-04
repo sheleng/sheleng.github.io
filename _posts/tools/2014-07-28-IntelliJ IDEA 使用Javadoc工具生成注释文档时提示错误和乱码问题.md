@@ -2,7 +2,7 @@
 layout: post
 title: Intellij IDEA使用Javadoc工具生成注释文档时提示错误和乱码问题
 category: tools
-tags:[javadoc]
+tags: [javadoc]
 ---
 
 #####1、运行Tools->Generate JavaDoc...
