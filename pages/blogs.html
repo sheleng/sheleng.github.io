@@ -6,16 +6,12 @@ blogs: active
 
 <div class="col-lg-13">
 	<ul class="breadcrumb">
-		<li><a href="http://ipet.mkfree.com">博文</a></li>
+		<li>博文</li>
 	</ul>
 </div>
 
-<div id="main_content_wrap" class="outer">
-  <section id="main_content" class="inner">
-      <ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
-  </section>
-</div>
+<ul>
+	{% for post in site.posts %}
+　　	<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　{% endfor %}
+</ul>
