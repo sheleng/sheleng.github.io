@@ -2,8 +2,9 @@
 layout: post
 title: Intellij IDEA使用Javadoc工具生成注释文档时提示错误和乱码问题
 category: tools
-tags:[javadoc,idea]
+tags:[javadoc]
 ---
+
 #####1、运行Tools->Generate JavaDoc...
 
 #####2、通过Setting->FileEncoding查看源代码文件的编码格式
