@@ -29,4 +29,5 @@ Maven是一个Java工具，所以在安装Maven前，需要确保你的机器上
 `source ~/.bashrc`
 
 最后运行mvn --version 验证安装
+
 ![](/public/images/posts/tools/2014-08-20-maven-use-records/mvn-version.png)
