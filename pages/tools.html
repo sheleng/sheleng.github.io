@@ -4,22 +4,21 @@ title: 工具
 tools: active
 ---
 
-<div>
+<ul>
   {% for category in site.categories %}
     {% if category[0] == 'tools' %}
       {% for post in category[1] %}
-      	<div>
-      	  <a href="{{ post.url}}"><h3>{{ post.title }}</h3></a>      	  
-      	</div>
-      	<span id="post_date">{{post.date}}</span>
-      	<div>
-      	  <p>{{post.description}}</p>
-      	</div>
-      	<div>
-      	  <p><a href="{{post.url}}">阅读全部...</a></p>
-      	</div>
-        <hr>
+      	<li class="post_list">
+      	  <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
+      	  <span id="post_date">{{post.date}}</span>  
+      	  <span class="post_date">
+          <em>{{post.year-month}}}</em>
+          {{post.day}}
+          <p>{{post.description}}</p>
+          <p><a href="{{post.url}}">阅读全部...</a></p>
+        </span>
+      	</li>        
       {% endfor %}
     {% endif %}
   {% endfor %}
-</div>
+</ul>

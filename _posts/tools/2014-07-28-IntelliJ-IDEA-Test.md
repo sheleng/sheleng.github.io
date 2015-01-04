@@ -5,7 +5,8 @@ description: 在IntelliJ IDEA 使用 Tools->Generate JavaDoc在遇到中文时�
 
 category: tools
 tags: [javadoc,idea]
-date: 2014-07-28
+year-month: 2014-07
+day: 28
 ---
 
 ####1、运行Tools->Generate JavaDoc...

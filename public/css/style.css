@@ -33,7 +33,7 @@ footer {
   padding-right: 80px;
 }
 
-#post_date{
+.post_date{
   position: absolute;
   right: 0;
   top: 5px;
@@ -43,4 +43,20 @@ footer {
   -webkit-text-size-adjust: none;
   text-align: center;
   padding: 2px 3px
+}
+
+.post_date em {
+  font-style: normal;
+  font-family: Calibri;
+  font-size: 16pt;
+  display: block;
+  font-weight: bold;
+}
+
+.post_list{
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  position: relative;
+  list-style-type:none
 }
