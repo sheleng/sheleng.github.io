@@ -11,12 +11,15 @@ archive: active
       {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
       {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
-
-      {% if post.category != 'books' %}
-        {% if forloop.first %}
+      
+      {% if forloop.first %}
+        {% if post.category != 'books' %}
           <legend id="{{this_year}}-{{this_month}}">{{this_year}}-{{this_month}}</legend>
           <ul>
         {% endif %}
+      {% endif %}
+
+      {% if post.category != 'books' %}
         <li><b></b><span>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;<a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a></span></li>
       
         {% if forloop.last %}
