@@ -4,68 +4,68 @@ title: 读书
 books: active
 ---
 
-  <div class='tabbable tabs-left'>  
+<div class='tabbable tabs-left'>  
 
-    <!--
-      选项卡：书单列表
-    -->
-    <ul class='nav nav-tabs'>
-      {% for post in site.posts %}
-        {% if post.category == 'books' %}
-          {% if forloop.first %}
-            <li class="active"><a href='#{{ post.title }}' data-toggle='tab'>{{ post.title }}</a></li>
-          {% else %}
-            <li><a href='#{{ post.title }}' data-toggle='tab'>{{ post.title }}</a></li>
-          {% endif %}
+  <!--
+    选项卡：书单列表
+  -->
+  <ul class='nav nav-tabs'>
+    {% for post in site.posts %}
+      {% if post.category == 'books' %}
+        {% if forloop.first %}
+          <li class="active"><a href='#{{ post.title }}' data-toggle='tab'>{{ post.title }}</a></li>
+        {% else %}
+          <li><a href='#{{ post.title }}' data-toggle='tab'>{{ post.title }}</a></li>
         {% endif %}
-      {% endfor %}
-    </ul>
+      {% endif %}
+    {% endfor %}
+  </ul>
 
-    <!--
-      选项卡的内容：书单详情
-    -->
-    <div class='tab-content book_tab_content'> 
-      {% for post in site.posts %}
-        {% if post.category == 'books' %}
-          {% if forloop.first %}
-            <div class='tab-pane active' id='{{ post.title }}'>
-          {% else %}
-            <div class='tab-pane' id='{{ post.title }}'>
-          {% endif %}
-          {% for book in post.book_list %}
-            <div class="panel" style="width:800px">
-              <div class="panel-body">
-                <div class="row">
-                  <div class="col-md-4 col-xs-12 center" style="width:200px">
-                   <img src="{{ book.cover }}" alt="cover" class="img-thumbnail">
-                  </div>
-                  <div class="col-md-8 col-xs-12" style="width:500px">
-                    <table class="table table-bordered">
-                      <tbody>
-                        <tr><td style="width:80px;">书名</td><td>{{ book.title }}</td></tr>
-                        <tr><td>作者</td><td>{{ book.author }}</td></tr>
-                        <tr><td>出版商</td><td>{{ book.publisher }}</td></tr>
-                        <tr><td>语言</td><td>{{ book.language }}</td></tr>                
-                        <tr><td>状态</td><td>
-                          {% if book.status == '已读' %}
-                            <span class="label label-success">{{ book.status }}</span>
-                          {% elsif book.status == '在读' %}
-                            <span class="label label-info">{{ book.status }}</span>
-                          {% elsif book.status == '未读' %}
-                            <span class="label label-default">{{ book.status }}</span>
-                          {% endif %}
-                          </td>
-                        </tr>
-                        <tr><td>评论</td><td>{{ book.description }}</td></tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>  
-              </div>
-            </div>      
-          {% endfor %}
-          </div>
+  <!--
+    选项卡的内容：书单详情
+  -->
+  <div class='tab-content book_tab_content'> 
+    {% for post in site.posts %}
+      {% if post.category == 'books' %}
+        {% if forloop.first %}
+          <div class='tab-pane active' id='{{ post.title }}'>
+        {% else %}
+          <div class='tab-pane' id='{{ post.title }}'>
         {% endif %}
-      {% endfor %}        
-    </div>
+        {% for book in post.book_list %}
+          <div class="panel" style="width:800px">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-4 col-xs-12 center" style="width:200px">
+                 <img src="{{ book.cover }}" alt="cover" class="img-thumbnail">
+                </div>
+                <div class="col-md-8 col-xs-12" style="width:500px">
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr><td style="width:80px;">书名</td><td>{{ book.title }}</td></tr>
+                      <tr><td>作者</td><td>{{ book.author }}</td></tr>
+                      <tr><td>出版商</td><td>{{ book.publisher }}</td></tr>
+                      <tr><td>语言</td><td>{{ book.language }}</td></tr>                
+                      <tr><td>状态</td><td>
+                        {% if book.status == '已读' %}
+                          <span class="label label-success">{{ book.status }}</span>
+                        {% elsif book.status == '在读' %}
+                          <span class="label label-info">{{ book.status }}</span>
+                        {% elsif book.status == '未读' %}
+                          <span class="label label-default">{{ book.status }}</span>
+                        {% endif %}
+                        </td>
+                      </tr>
+                      <tr><td>评论</td><td>{{ book.description }}</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>  
+            </div>
+          </div>      
+        {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}        
+  </div>
 </div>
