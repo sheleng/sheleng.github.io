@@ -3,8 +3,21 @@ layout: default
 title: 转帖
 repost: active
 ---
-<div id="main_content_wrap" class="outer">
-  <section id="main_content" class="inner">
-  		<h2>转帖页面待构建，敬请期待。。。</h2>
-  </section>
-</div>
+
+<ul>
+  {% for post in site.posts %}
+	{% if post.category == 'repost' %}
+      	<li class="post_list">
+      	  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      	  <div>
+          	<p>{{ post.description }}</p>
+          	<p><a href="{{ post.url }}">阅读全部...</a></p>
+          </div>
+      	  <span class="post_date">
+          	<em>{{ post.day }}</em>
+          	{{ post.year-month }}
+          </span>
+      	</li>      
+    {% endif %}
+  {% endfor %}
+</ul>

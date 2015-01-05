@@ -11,3 +11,30 @@ books: active
     {% endif %}
   {% endfor %}
 </div>
+
+<div class="container">
+    <div class='tabbable tabs-left'>  
+      
+      <!--
+        选项卡：书单列表
+      -->
+      <ul class='nav nav-tabs'>
+        {% for post in site.posts %}
+		  {% if post.category == 'books' %}
+      		<li><a href='#{{ post.url }}' data-toggle='tab'>{{ post.title }}</a></li>
+    	  {% endif %}
+  	    {% endfor %}
+      </ul>
+    
+      <!--
+        选项卡的内容：书单详情
+      -->
+      <div class='tab-content'>      	
+        <div class='tab-pane active' id='tab1'>我是选项卡一的内容</div>
+        <div class='tab-pane' id='tab2'>我是选项卡二的内容</div>
+        <div class='tab-pane' id='tab3'>我是选项卡三的内容</div>
+        <div class='tab-pane' id='tab4'>我是选项卡四的内容</div>
+        <div class='tab-pane' id='tab5'>我是选项卡五的内容</div>
+      </div> 
+    </div>
+</div>
