@@ -19,7 +19,10 @@ day: 06
 下载了Eclipse和JDK1.7的压缩包后，在/home/Username/下新建了一个名为Java_SDK的文件夹（Username为Ubuntu用户名，下同）。
 
 将刚才下载的JDK和Eclipse（Ubuntu12.10是下载到/home/Username/下载）解压到Java_SDK文件夹。
+
+
 ####3、JDK的配置
+
 #####方法一：
 打开/home/Username/.bashrc 文件，通过修改这个文件来更新环境变量。
 
@@ -54,6 +57,6 @@ day: 06
 
 注销系统，重新开启后打开终端，输入java -version，不出意外的话，就可以看到java的版本信息了。
 
- ####4、启动Eclipse
+####4、启动Eclipse
 
 进入刚才解压的Eclipse文件夹（cd  /home/Username/Java_SDK/eclipse），然后直接打开就可以运行（./eclipse）。

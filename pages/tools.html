@@ -9,14 +9,14 @@ tools: active
     {% if category[0] == 'tools' %}
       {% for post in category[1] %}
       	<li class="post_list">
-      	  <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
+      	  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       	  <div>
-          	<p>{{post.description}}</p>
-          	<p><a href="{{post.url}}">阅读全部...</a></p>
+          	<p>{{ post.description }}</p>
+          	<p><a href="{{ post.url }}">阅读全部...</a></p>
           </div>
       	  <span class="post_date">
-          	<em>{{post.day}}</em>
-          	{{post.year-month}}
+          	<em>{{ post.day }}</em>
+          	{{ post.year-month }}
           </span>
       	</li>
       {% endfor %}
