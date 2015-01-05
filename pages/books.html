@@ -13,7 +13,11 @@ books: active
     <ul class='nav nav-tabs'>
       {% for post in site.posts %}
         {% if post.category == 'books' %}
-          <li><a href='#{{ post.title }}' data-toggle='tab'>{{ post.title }}</a></li>
+          {% if forloop.first %}
+            <li><a href='#{{ post.title }}' data-toggle='tab' class="active">{{ post.title }}</a></li>
+          {% else %}
+            <li><a href='#{{ post.title }}' data-toggle='tab' class="active">{{ post.title }}</a></li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
