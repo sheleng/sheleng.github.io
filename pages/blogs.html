@@ -4,10 +4,9 @@ title: 博文
 blogs: active
 ---
 
-<ul>
-  {% for category in site.categories %}
-    {% if category[0] == 'blogs' %}
-      {% for post in category[1] %}
+<ul>    
+  {% for post in site.posts %}
+	{% if post.category == 'blogs' %}
       	<li class="post_list">
       	  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       	  <div>
@@ -18,8 +17,7 @@ blogs: active
           	<em>{{ post.day }}</em>
           	{{ post.year-month }}
           </span>
-      	</li>
-      {% endfor %}
+      	</li>      
     {% endif %}
   {% endfor %}
 </ul>
