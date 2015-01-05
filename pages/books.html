@@ -4,20 +4,25 @@ title: 读书
 books: active
 ---
 
-<div class="container">
-    <div class='tabbable tabs-left'>  
-      
-      <!--
-        选项卡：书单列表
-      -->
-      <ul class='nav nav-tabs'>
-        {% for post in site.posts %}
-      {% if post.category == 'books' %}
-          <li><a href='#{{ post.title }}' data-toggle='tab'>{{ post.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-      </ul>
+<div class="container-fluid">
+  <div class="row-fluid">
     
+    <div class='tabbable tabs-left'>  
+    
+      <div class="span2">  
+        <!--
+          选项卡：书单列表
+        -->
+        <ul class='nav nav-tabs'>
+          {% for post in site.posts %}
+        {% if post.category == 'books' %}
+            <li><a href='#{{ post.title }}' data-toggle='tab'>{{ post.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    
+      <div class="span8">
       <!--
         选项卡的内容：书单详情
       -->
@@ -61,5 +66,7 @@ books: active
         {% endif %}
         {% endfor %}        
       </div> 
+      </div>
+    </div>
     </div>
 </div>
