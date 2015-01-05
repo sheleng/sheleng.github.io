@@ -5,9 +5,8 @@ tools: active
 ---
 
 <ul>
-  {% for category in site.categories %}
-    {% if category[0] == 'tools' %}
-      {% for post in category[1] %}
+  {% for post in site.posts %}
+	{% if post.category == 'tools' %}
       	<li class="post_list">
       	  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       	  <div>
@@ -18,8 +17,7 @@ tools: active
           	<em>{{ post.day }}</em>
           	{{ post.year-month }}
           </span>
-      	</li>
-      {% endfor %}
+      	</li>      
     {% endif %}
   {% endfor %}
 </ul>
