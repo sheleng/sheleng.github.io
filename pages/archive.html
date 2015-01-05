@@ -16,7 +16,7 @@ archive: active
         <legend id="{{this_year}}-{{this_month}}">{{this_year}}年-{{this_month}}月</legend>
         <ul>
       {% endif %}
-      <li><b>{{ post.date | date: "%Y年-%m月-%d日" }}</b><span><a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a></span></li>&raquo;
+      <li><b></b><span>{{ post.date | date: "%Y年-%m月-%d日" }}&raquo;<a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a></span></li>
 
       {% if forloop.last %}
         </ul>      
