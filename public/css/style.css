@@ -165,3 +165,7 @@ footer {
   border-color: #ddd #ddd #ddd transparent;
   *border-left-color: #ffffff;
 }
+
+.book_tab_content{
+  padding-left: 150px;
+}
