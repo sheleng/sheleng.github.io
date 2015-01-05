@@ -27,10 +27,9 @@ footer {
 }
 
 #page_content{
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-left: 80px;
-  padding-right: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
 }
 
 .post_date{
