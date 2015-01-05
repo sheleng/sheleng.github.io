@@ -4,7 +4,6 @@ title: 读书
 books: active
 ---
 
-<div class="container">
   <div class='tabbable tabs-left'>  
 
     <!--
@@ -34,7 +33,7 @@ books: active
             <div class='tab-pane' id='{{ post.title }}'>
           {% endif %}
           {% for book in post.book_list %}
-            <div class="panel">
+            <div class="panel" style="width:800px">
               <div class="panel-body">
                 <div class="row">
                   <div class="col-md-4 col-xs-12 center" style="width:200px">
@@ -69,5 +68,4 @@ books: active
         {% endif %}
       {% endfor %}        
     </div>
-  </div>
 </div>
