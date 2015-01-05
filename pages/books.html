@@ -13,7 +13,7 @@ books: active
       <ul class='nav nav-tabs'>
         {% for post in site.posts %}
 		  {% if post.category == 'books' %}
-      		<li><a href='{{ post.url }}' data-toggle='tab'>{{ post.title }}</a></li>
+      		<li><a href='#{{ post.title }}' data-toggle='tab'>{{ post.title }}</a></li>
     	  {% endif %}
   	    {% endfor %}
       </ul>
@@ -21,9 +21,11 @@ books: active
       <!--
         选项卡的内容：书单详情
       -->
-      <div class='tab-content'>      	
-        <div class='tab-pane active' id='tab1'>
-  	      {% for book in page.book_list %}
+      <div class='tab-content'> 
+      {% for post in site.posts %}
+		  {% if post.category == 'books' %}      		
+      		<div class='tab-pane active' id='{{ post.title }}'>
+  	      {% for book in post.book_list %}
             <div class="panel">
               <div class="panel-body">
                 <div class="row">
@@ -56,6 +58,9 @@ books: active
       		</div>      
   		  {% endfor %}
         </div>
+    	  {% endif %}
+  	    {% endfor %}     	
+        
       </div> 
     </div>
 </div>
