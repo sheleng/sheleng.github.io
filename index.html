@@ -22,9 +22,9 @@ index: active
       	  		  	  	标签：
       	  		  	    {% for tag in post.tags %}
       	  		  	    	{% if forloop.first %}
-      	  		  	    	  tag[0]
+      	  		  	    	  {{ tag[0] }}
       	  		  	    	{% else %}
-							  &nbsp;tag[0]
+							  &nbsp;{{ tag[0] }}
 							{% endif %}
 						{% endfor %}
       			    </li>
