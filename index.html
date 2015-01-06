@@ -4,6 +4,29 @@ title: 首页
 index: active
 ---
 
-{% for category in site.categories %}<!-- 这里是读书、生活、科研、技术、绘画-->
-  <li><a href="#{{ category | first }}" data-toggle="tab">{{ category[0] }}</a></li>
-{% endfor %}  
+<div class="container">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="span4 index-left">
+            <div class="content-title">
+              <span class="title"><h4>最新文章速递</h4></span>
+              <span class="gray-3">专注，热爱，分享IT那一些事儿</span>
+              <hr>
+              <ul>
+  			    {% for post in site.posts %}
+				  {% if post.category == 'books' %}
+      			    <li class="post_list">
+      	  		  	  <p><a href="{{ post.url }}">{{ post.title }}</a></p>      	  		
+      	  		  	  <span class="post_date">{{ post.year-month }}-{{post.day}}</span>
+      			    </li>      
+    			  {% endif %}
+  			    {% endfor %}
+			  </ul>
+            </div>
+          </div>  
+          <div class="span10 index-right">
+            <h4>自我介绍</h4><hr>
+          </div>
+        </div>
+      </div>
+    </div>

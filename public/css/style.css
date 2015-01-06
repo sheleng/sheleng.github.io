@@ -33,6 +33,40 @@ footer {
   max-width: 989px;
 }
 
+.index-left{
+  width: 60%;
+  float: left;
+}
+
+.index-right{
+  width: 35%;
+  float: right;
+}
+
+.index-left .content-title{
+  height: 37px;
+  line-height: 37px;
+  margin-bottom: 5px;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.index-left .content-title .title{
+  background: none repeat scroll 0 0 #1f1f1f;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  height: 37px;
+  line-height: 37px;
+  margin-right: 20px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.gray-3{
+  color: #888;
+}
+
 .post_date{
   position: absolute;
   right: 0;
