@@ -14,16 +14,16 @@ index: active
               <hr>
               <ul>
   			    {% for post in site.posts %}
-				  {% if post.category == 'books' %}
-      			    <li class="post_list">
-      	  		  	  <p><a href="{{ post.url }}">{{ post.title }}</a></p>      	  		
+				  {% if post.category != 'books' %}
+      			    <li>
+      	  		  	  <p><a href="{{ post.url }}">{{ post.title }}</a></p>
       	  		  	  <span class="post_date">{{ post.year-month }}-{{post.day}}</span>
-      			    </li>      
+      			    </li>
     			  {% endif %}
   			    {% endfor %}
 			  </ul>
             </div>
-          </div>  
+          </div>
           <div class="span10 index-right">
             <h4>自我介绍</h4><hr>
           </div>
