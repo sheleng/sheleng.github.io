@@ -5,12 +5,12 @@ index: active
 ---
 </br>
 <div class="container-fluid">
-<div class="row-fluid">
-  <div class="span4 index-left">
-    <div class="content-title">
-      <span class="title">最新文章</span>
-      <span class="gray-3">专注，热爱，分享IT那一些事儿</span>              
-    </div>
+  <div class="row-fluid">
+    <div class="span4 index-left">
+      <div class="content-title">
+        <span class="title">最新文章</span>
+        <span class="gray-3">专注，热爱，分享IT那一些事儿</span>
+      </div>
     <div>
       <ul>
 		{% for post in site.posts %}
@@ -25,6 +25,7 @@ index: active
   		  	    	{% else %}
 				  &nbsp;<span class="tag-label">{{ tag }}</span>
 				{% endif %}
+              </div>
 			{% endfor %}
 		    </li>
 		  {% endif %}
@@ -32,38 +33,38 @@ index: active
 	  </ul>
     </div>
   </div>
-  <div class="span10 index-right">
-    <div class="content-title">
-      <span class="title">自我介绍</span>      
-    </div>
-    <div>      	
-      <ul>		
-		<li>
-		  <div class="gray-3">	  
-		    <p>90后，Javaer，宅男，无不良嗜好，强迫症患者</p>
-		    <p>地 点：福州、中山</p>
-		    <p>Q  Q：1323736312</p>
-		    <p>邮箱：1323736312@qq.com</p>
-		    <p>友链申请请联系QQ或邮箱</p>
-		  </div>
-		</li>
-	  </ul>     
-    </div>
-    <div class="content-title">
-      <span class="title">标签分类</span>      
-    </div>
-    <div id="tag-cloud">
-  	  {% for tag in site.tags %}
-  		<a href="javascript:;" onclick="showtag('{{ tag[0] }}')" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-    	  {{ tag[0] }}
-  		</a>
-  	  {% endfor %}
-    </div>
-    <div id="show-tag">
-      <div style="text-align:center">
+      <div class="span10 index-right">
+      <div class="content-title">
+        <span class="title">自我介绍</span>
+      </div>
+      <div>
+        <ul>
+		  <li>
+		    <div class="gray-3">
+		      <p>90后，Javaer，宅男，无不良嗜好，强迫症患者</p>
+		      <p>地 点：福州、中山</p>
+		      <p>Q  Q：1323736312</p>
+		      <p>邮箱：1323736312@qq.com</p>
+		      <p>友链申请请联系QQ或邮箱</p>
+		    </div>
+		  </li>
+	    </ul>
+      </div>
+      <div class="content-title">
+        <span class="title">标签分类</span>
+      </div>
+      <div id="tag-cloud">
+  	    {% for tag in site.tags %}
+  		  <a href="javascript:;" onclick="showtag('{{ tag[0] }}')" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+    	    {{ tag[0] }}
+  		  </a>
+  	    {% endfor %}
+      </div>
+      <div id="show-tag">
+        <div style="text-align:center">
     	
-  	  </div>
-	</div>
+  	    </div>
+	  </div>
+    </div>
   </div>
-</div>
 </div>
