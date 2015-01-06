@@ -96,10 +96,10 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="293" selection-start="324" selection-end="324" vertical-scroll-proportion="0.065404475" vertical-offset="0" max-vertical-offset="1064">
+            <state line="3" column="29" selection-start="363" selection-end="363" vertical-scroll-proportion="0.09810671" vertical-offset="0" max-vertical-offset="1064">
               <folding>
                 <element signature="e#1381#3960#0" expanded="false" />
-                <marker date="1420559660431" expanded="false" signature="1569:1603" placeholder="..." />
+                <marker date="1420559819770" expanded="false" signature="1569:1603" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -698,12 +698,12 @@
       <changelist id="ff720aad-71c6-417b-a15e-ca9100c73644" name="Default" comment="" />
       <created>1420557592738</created>
       <updated>1420557592738</updated>
-      <workItem from="1420557594308" duration="2060000" />
+      <workItem from="1420557594308" duration="2217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2060000" />
+    <option name="totallyTimeSpent" value="2217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -776,6 +776,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="21" selection-end="324" vertical-scroll-proportion="-2.451613" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="47" selection-start="1465" selection-end="1465" vertical-scroll-proportion="-7.935484" vertical-offset="837" max-vertical-offset="1444">
@@ -785,19 +792,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="21" selection-end="324" vertical-scroll-proportion="-2.451613" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="293" selection-start="324" selection-end="324" vertical-scroll-proportion="0.065404475" vertical-offset="0" max-vertical-offset="1064">
+        <state line="3" column="29" selection-start="363" selection-end="363" vertical-scroll-proportion="0.09810671" vertical-offset="0" max-vertical-offset="1064">
           <folding>
             <element signature="e#1381#3960#0" expanded="false" />
-            <marker date="1420559660431" expanded="false" signature="1569:1603" placeholder="..." />
+            <marker date="1420559819770" expanded="false" signature="1569:1603" placeholder="..." />
           </folding>
         </state>
       </provider>
