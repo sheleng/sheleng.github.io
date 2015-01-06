@@ -15,9 +15,9 @@ repost: active
               标签：                     
               {% for tag in post.tags %}
                 {% if forloop.first %}
-                  <code>{{ tag }}</code>
+                  <span class="tag-label">{{ tag }}</span>
                 {% else %}
-                  &nbsp;<code>{{ tag }}</code>
+                  &nbsp;<span class="tag-label">{{ tag }}</span>
                 {% endif %}
               {% endfor %}        
             </p>

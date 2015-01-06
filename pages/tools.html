@@ -12,14 +12,14 @@ tools: active
       	  <div>
           	<p>{{ post.description }}</p>
           	<p>
-          	  标签：      	  		  	  	
-	  	      {% for tag in post.tags %}
-  	    	    {% if forloop.first %}
-	  	    	  <code>{{ tag }}</code>
-      	  	    {% else %}
-				  &nbsp;<code>{{ tag }}</code>
-			    {% endif %}
-			  {% endfor %}			  
+          	  标签：                     
+              {% for tag in post.tags %}
+                {% if forloop.first %}
+                  <span class="tag-label">{{ tag }}</span>
+                {% else %}
+                  &nbsp;<span class="tag-label">{{ tag }}</span>
+                {% endif %}
+              {% endfor %}
             </p>
           </div>
       	  <span class="post_date">
