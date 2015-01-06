@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="47" selection-start="1465" selection-end="1465" vertical-scroll-proportion="-7.935484" vertical-offset="837" max-vertical-offset="1444">
+            <state line="57" column="47" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.44727272" vertical-offset="837" max-vertical-offset="1444">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -93,13 +93,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="29" selection-start="363" selection-end="363" vertical-scroll-proportion="0.09810671" vertical-offset="0" max-vertical-offset="1064">
+            <state line="20" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
               <folding>
-                <element signature="e#1381#3960#0" expanded="false" />
-                <marker date="1420559819770" expanded="false" signature="1569:1603" placeholder="..." />
+                <element signature="e#1379#3958#0" expanded="false" />
+                <marker date="1420559830961" expanded="false" signature="1567:1601" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -128,8 +128,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/_posts/blogs/2013-03-06-ubuntu-install-jdk-eclipse.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -698,12 +698,12 @@
       <changelist id="ff720aad-71c6-417b-a15e-ca9100c73644" name="Default" comment="" />
       <created>1420557592738</created>
       <updated>1420557592738</updated>
-      <workItem from="1420557594308" duration="2217000" />
+      <workItem from="1420557594308" duration="2242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2217000" />
+    <option name="totallyTimeSpent" value="2242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -783,21 +783,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="47" selection-start="1465" selection-end="1465" vertical-scroll-proportion="-7.935484" vertical-offset="837" max-vertical-offset="1444">
+        <state line="20" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1379#3958#0" expanded="false" />
+            <marker date="1420559830961" expanded="false" signature="1567:1601" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="363" selection-end="363" vertical-scroll-proportion="0.09810671" vertical-offset="0" max-vertical-offset="1064">
+        <state line="57" column="47" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.44727272" vertical-offset="837" max-vertical-offset="1444">
           <folding>
-            <element signature="e#1381#3960#0" expanded="false" />
-            <marker date="1420559819770" expanded="false" signature="1569:1603" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

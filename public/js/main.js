@@ -19,8 +19,6 @@ jq.fn.tagcloud.defaults = {
     jq('#tag-cloud a').tagcloud();
 });
 
-
-
 function showTag(tagStr) {
     jq.getJSON(tagsJson,
     function(data) {

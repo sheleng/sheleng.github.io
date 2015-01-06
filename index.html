@@ -55,7 +55,7 @@ index: active
       </div>
       <div id="tag-cloud">
   	    {% for tag in site.tags %}
-  		  <a href="javascript:;" onclick="showtag('{{ tag[0] }}')" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+  		  <a href="javascript:;" onclick="showTag('{{ tag[0] }}')" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
     	    {{ tag[0] }}
   		  </a>
   	    {% endfor %}
