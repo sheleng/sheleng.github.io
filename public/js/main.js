@@ -1,3 +1,21 @@
+var jq = jQuery.noConflict();
+
+jq.fn.tagcloud.defaults = {
+    size: {
+      start: 12,
+      end: 22,
+      unit: 'px'
+    },
+    color: {
+      start: '#7CCD7C',
+      end: '#CD0000'
+    }
+  };
+
+  jq(function() {
+    jq('#tag_cloud a').tagcloud();
+});
+
 var scrolltotop={
 	setting:{
 		startline:100, //起始行

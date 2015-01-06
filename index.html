@@ -52,6 +52,13 @@ index: active
     <div class="content-title">
       <span class="title">标签分类</span>      
     </div>
+    <div id="tag_cloud">
+  	  {% for tag in site.tags %}
+  		<a href="javascript:;" onclick="showTag('{{ tag[0] }}')" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+    	  {{ tag[0] }}
+  		</a>
+  	  {% endfor %}
+    </div>
   </div>
 </div>
 </div>
