@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: Intellij IDEA使用Javadoc工具生成注释文档时提示错误和乱码问题
 autor: Sheleng
 category: tools

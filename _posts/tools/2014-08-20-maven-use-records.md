@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: Maven使用记录
 autor: Sheleng
 category: tools
