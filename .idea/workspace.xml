@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="14" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.5854545" vertical-offset="894" max-vertical-offset="1444">
+            <state line="57" column="47" selection-start="1465" selection-end="1465" vertical-scroll-proportion="-7.935484" vertical-offset="837" max-vertical-offset="1444">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -84,14 +84,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="2" selection-start="2371" selection-end="2371" vertical-scroll-proportion="-41.580647" vertical-offset="60" max-vertical-offset="1482">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
+            <state line="2" column="293" selection-start="324" selection-end="324" vertical-scroll-proportion="0.065404475" vertical-offset="0" max-vertical-offset="1064">
               <folding>
-                <element signature="e#1377#3956#0" expanded="false" />
-                <marker date="1420559089810" expanded="false" signature="1565:1599" placeholder="..." />
+                <element signature="e#1381#3960#0" expanded="false" />
+                <marker date="1420559660431" expanded="false" signature="1569:1603" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="21" selection-end="324" vertical-scroll-proportion="-2.451613" vertical-offset="0" max-vertical-offset="323">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +128,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/_posts/blogs/2013-03-06-ubuntu-install-jdk-eclipse.md" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
       </list>
     </option>
   </component>
@@ -680,12 +698,12 @@
       <changelist id="ff720aad-71c6-417b-a15e-ca9100c73644" name="Default" comment="" />
       <created>1420557592738</created>
       <updated>1420557592738</updated>
-      <workItem from="1420557594308" duration="1672000" />
+      <workItem from="1420557594308" duration="2060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1672000" />
+    <option name="totallyTimeSpent" value="2060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -751,21 +769,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
-          <folding>
-            <element signature="e#1377#3956#0" expanded="false" />
-            <marker date="1420559089810" expanded="false" signature="1565:1599" placeholder="..." />
-          </folding>
+        <state line="71" column="2" selection-start="2371" selection-end="2371" vertical-scroll-proportion="-41.580647" vertical-offset="60" max-vertical-offset="1482">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="14" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.5854545" vertical-offset="894" max-vertical-offset="1444">
+        <state line="57" column="47" selection-start="1465" selection-end="1465" vertical-scroll-proportion="-7.935484" vertical-offset="837" max-vertical-offset="1444">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="21" selection-end="324" vertical-scroll-proportion="-2.451613" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="293" selection-start="324" selection-end="324" vertical-scroll-proportion="0.065404475" vertical-offset="0" max-vertical-offset="1064">
+          <folding>
+            <element signature="e#1381#3960#0" expanded="false" />
+            <marker date="1420559660431" expanded="false" signature="1569:1603" placeholder="..." />
           </folding>
         </state>
       </provider>

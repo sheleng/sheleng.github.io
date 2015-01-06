@@ -1,5 +1,8 @@
 var jq = jQuery.noConflict();
 
+var tagsInfo = '[{ {% for tag in site.tags %}{% if tag[0] != site.tags.first[0] %},{% endif %}"{{ tag[0] }}":[{% for post in tag[1] %}{% if post != tag[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }]',
+    tagsJson = JSON.parse(tagsInfo);
+
 jq.fn.tagcloud.defaults = {
     size: {
       start: 12,
@@ -16,8 +19,7 @@ jq.fn.tagcloud.defaults = {
     jq('#tag-cloud a').tagcloud();
 });
 
-var tagsInfo = '{ {% for tag in site.tags %}{% if tag[0] != site.tags.first[0] %},{% endif %}"{{ tag[0] }}":[{% for post in tag[1] %}{% if post != tag[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }',
-    tagsJson = JSON.parse(tagsInfo);
+
 
 function showtag(tagStr) {
     jq.getJSON(tagsJson,
