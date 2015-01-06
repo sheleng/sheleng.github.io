@@ -14,8 +14,8 @@ repost: active
           	<p><a href="{{ post.url }}">阅读全部...</a></p>
           </div>
       	  <span class="post_date">
-          	<em>{{ post.day }}</em>
-          	{{ post.year-month }}
+          	<em>{{ post.date | date: "%d"}}</em>
+            {{ post.date | date: "%Y-%m" }}
           </span>
       	</li>      
     {% endif %}
