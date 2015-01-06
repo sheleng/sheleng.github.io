@@ -105,6 +105,12 @@ footer {
   color: #999;
 }
 
+.tag-label {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
 
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
