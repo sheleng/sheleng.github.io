@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Ubuntu下配置安装JDK1.7+Eclipse Classic 4.2.2
-description: 
+autor: sheleng
 category: blogs
 tags: [java,eclipse]
-year-month: 2013-03
-day: 06
+description: 
 ---
 
 ####1、JDK和Eclipse的下载

@@ -95,6 +95,16 @@ footer {
   list-style-type:none
 }
 
+.post-info {
+  margin-bottom: 0;
+  background-color: #fbfbfb;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  color: #999;
+}
+
 
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
