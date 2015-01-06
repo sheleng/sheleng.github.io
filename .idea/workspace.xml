@@ -76,9 +76,9 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="14" selection-start="747" selection-end="747" vertical-scroll-proportion="0.6090909" vertical-offset="121" max-vertical-offset="1387">
+            <state line="35" column="4" selection-start="885" selection-end="885" vertical-scroll-proportion="0.51272726" vertical-offset="41" max-vertical-offset="1102">
               <folding>
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+                <element signature="tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -334,12 +334,12 @@
       <changelist id="ff720aad-71c6-417b-a15e-ca9100c73644" name="Default" comment="" />
       <created>1420557592738</created>
       <updated>1420557592738</updated>
-      <workItem from="1420557594308" duration="320000" />
+      <workItem from="1420557594308" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320000" />
+    <option name="totallyTimeSpent" value="626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -407,9 +407,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="747" selection-end="747" vertical-scroll-proportion="0.6090909" vertical-offset="121" max-vertical-offset="1387">
+        <state line="35" column="4" selection-start="885" selection-end="885" vertical-scroll-proportion="0.51272726" vertical-offset="41" max-vertical-offset="1102">
           <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+            <element signature="tag#ul#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
