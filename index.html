@@ -4,37 +4,37 @@ title: 首页
 index: active
 ---
 </br>
-      <div class="container-fluid">
-        <div class="row-fluid">
-          <div class="span4 index-left">
-            <div class="content-title">
-              <span class="title"><h4>最新文章</h4></span>
-              <span class="gray-3">专注，热爱，分享IT那一些事儿</span>              
-            </div>
-            </br>
-            <div>
-              <ul>
-  			    {% for post in site.posts %}
-				  {% if post.category != 'books' %}
-      			    <li>
-      	  		  	  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      	  		  	  <div class="post_list">
-      	  		  	  	标签：      	  		  	  	
-      	  		  	    {% for tag in post.tags %}
-      	  		  	    	{% if forloop.first %}
-      	  		  	    	  <span class="tag-label">{{ tag }}</span>
-      	  		  	    	{% else %}
-							  &nbsp;<span class="tag-label">{{ tag }}</span>
-							{% endif %}
-						{% endfor %}
-      			    </li>
-    			  {% endif %}
-  			    {% endfor %}
-			  </ul>
-            </div>
-          </div>
-          <div class="span10 index-right">
-            <h4>自我介绍</h4><hr>
-          </div>
-        </div>
-      </div>
+<div class="container-fluid">
+<div class="row-fluid">
+  <div class="span4 index-left">
+    <div class="content-title">
+      <span class="title"><h4>最新文章</h4></span>
+      <span class="gray-3">专注，热爱，分享IT那一些事儿</span>              
+    </div>
+    </br>
+    <div>
+      <ul>
+		    {% for post in site.posts %}
+		  {% if post.category != 'books' %}
+			    <li>
+	  		  	  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+	  		  	  <div class="post_list">
+	  		  	  	标签：      	  		  	  	
+	  		  	    {% for tag in post.tags %}
+	  		  	    	{% if forloop.first %}
+	  		  	    	  <span class="tag-label">{{ tag }}</span>
+	  		  	    	{% else %}
+					  &nbsp;<span class="tag-label">{{ tag }}</span>
+					{% endif %}
+				{% endfor %}
+			    </li>
+		  {% endif %}
+		    {% endfor %}
+	  </ul>
+    </div>
+  </div>
+  <div class="span10 index-right">
+    <h4>自我介绍</h4><hr>
+  </div>
+</div>
+</div>
