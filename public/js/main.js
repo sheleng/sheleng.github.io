@@ -13,8 +13,34 @@ jq.fn.tagcloud.defaults = {
   };
 
   jq(function() {
-    jq('#tag_cloud a').tagcloud();
+    jq('#tag-cloud a').tagcloud();
 });
+
+function showtag(tagStr) {
+    jq.getJSON("../post.json",
+    function(data) {
+      jq('#show-tag').empty(content);
+      var content = "<h2>分类：" + tagStr + "</h2><ul class=\"posts\">";
+      var count = 0;
+      jq.each(data,
+      function(i, item) {
+        jq.each(item.tags,
+        function(j, tag) {
+          if (tag == tagStr) {
+            content += "<li class=\"listing-item\"><time datetime=\"" + item.date + "\">" + item.date + "</time><a href=\"" + item.url + "\">" + item.title + "</a></li>";
+            count++;
+          }
+
+        });
+      });
+      if (count > 0) {
+        content += "</ul>";
+        postNumStr = "<span>（" + count + "篇文章）</span>";
+        jq('#show-tag').append(content);
+        jq('#show-tag>h2').append(postNumStr);
+      }
+    });
+}
 
 var scrolltotop={
 	setting:{
@@ -73,8 +99,3 @@ var scrolltotop={
 	}
 };
 scrolltotop.init();
-
-var dataStr = '{ {% for tag in site.tags %}{% if tag[0] != site.tags.first[0] %},{% endif %}"{{ tag[0] }}":[{% for post in tag[1] %}{% if post != tag[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }',
-    data = JSON.parse(dataStr),
-    curTag = $.query.get("tag"),
-    archieves = data[curTag];
