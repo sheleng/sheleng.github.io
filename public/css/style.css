@@ -33,23 +33,11 @@ footer {
   max-width: 989px;
 }
 
-.index-left{
-  width: 60%;
-  float: left;
-}
-
-.index-right{
-  width: 35%;
-  float: right;
-}
-
-.index-left .content-title{
-  height: 37px;
-  line-height: 37px;
-  margin-bottom: 5px;
-  font-size: 100%;
-  font-weight: normal;
-}
+.index {}
+.index .index-left{width: 60%;float: left;}
+.index .index-right{width: 35%;float: right;}
+.index .content-title{height: 37px;line-height: 37px;margin-bottom: 5px;font-size: 100%;font-weight: normal;}
+.index ul{padding-left: 0px;list-style-type: none;}
 
 .content-title .title{
   background: none repeat scroll 0 0 #1f1f1f;
