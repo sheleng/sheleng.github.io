@@ -11,8 +11,8 @@ tools: active
       	  <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
       	  <div>
           	<p>{{ post.description }}</p>
+          	<p>作者：{{ post.autor }}</p>
           	<p>
-          	  作者：{{ post.autor }}&nbsp;
           	  标签：      	  		  	  	
 	  	      {% for tag in post.tags %}
   	    	    {% if forloop.first %}
@@ -20,9 +20,7 @@ tools: active
       	  	    {% else %}
 				  &nbsp;<code>{{ tag }}</code>
 			    {% endif %}
-			  {% endfor %}
-			  &nbsp;
-          	  <a href="{{ post.url }}">阅读全部</a>
+			  {% endfor %}			  
             </p>
           </div>
       	  <span class="post_date">
