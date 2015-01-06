@@ -33,11 +33,11 @@ footer {
   max-width: 989px;
 }
 
-.index {}
-.index .index-left{width: 60%;float: left;}
-.index .index-right{width: 35%;float: right;}
-.index .content-title{height: 37px;line-height: 37px;margin-bottom: 5px;font-size: 100%;font-weight: normal;}
-.index ul{padding-left: 0px;list-style-type: none;}
+.index-left{width: 60%;float: left;}
+.index-left ul{padding-left: 0px;list-style-type: none;}
+.index-right{width: 35%;float: right;}
+.index-right ul{padding-left: 0px;list-style-type: none;}
+.content-title{height: 37px;line-height: 37px;margin-bottom: 5px;font-size: 100%;font-weight: normal;}
 
 .content-title .title{
   background: none repeat scroll 0 0 #1f1f1f;
