@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Maven使用记录
-description: Maven是基于项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具。
+autor: Sheleng
+
 category: tools
 tags: [java,maven]
-year-month: 2014-08
-day: 20
+
+description: Maven是基于项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具。
 ---
 
 ####1、安装Maven
