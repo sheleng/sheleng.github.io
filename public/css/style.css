@@ -21,7 +21,10 @@ footer {
   color: #f2f2f2;
   text-align: center;
   display: block;
-  text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
 }
 
 #page_content{
