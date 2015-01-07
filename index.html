@@ -14,7 +14,7 @@ index: active
       <div>
         <ul>
 		  {% for post in site.posts %}
-		    {% if post.category != 'books' or post.category != 'links' %}
+		    {% if post.category == 'blogs' or post.category == 'tools' %}
 		      <li>
                 <div class="post-list">
   		  	    <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
