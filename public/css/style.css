@@ -1,4 +1,4 @@
-#github_banner {
+.github_banner {
   display: block;
   position: absolute;
   top:0;
@@ -14,8 +14,6 @@
 }
 
 footer {
-  padding-left: auto;
-  padding-right: auto;
   padding-top:15px;
   height:50px;
   border-top:10px;
@@ -96,7 +94,7 @@ footer {
 .tag-label {  
   display: inline-block;
   padding: 2px 4px;
-  font-size: 11.844px;
+  font-size: 12px;
   font-weight: bold;
   line-height: 14px;
   color: #fff;
