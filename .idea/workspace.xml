@@ -107,7 +107,7 @@
       <file leaf-file-name="2013-03-06-ubuntu-install-jdk-eclipse.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/tools/2013-03-06-ubuntu-install-jdk-eclipse.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="16" selection-start="116" selection-end="116" vertical-scroll-proportion="0.17055656" vertical-offset="0" max-vertical-offset="1273">
+            <state line="4" column="14" selection-start="98" selection-end="98" vertical-scroll-proportion="0.13644524" vertical-offset="0" max-vertical-offset="1273">
               <folding />
             </state>
           </provider>
@@ -728,12 +728,12 @@
       <created>1420557592738</created>
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
-      <workItem from="1420591453104" duration="1131000" />
+      <workItem from="1420591453104" duration="1210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4508000" />
+    <option name="totallyTimeSpent" value="4587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -870,7 +870,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/tools/2013-03-06-ubuntu-install-jdk-eclipse.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="116" selection-end="116" vertical-scroll-proportion="0.17055656" vertical-offset="0" max-vertical-offset="1273">
+        <state line="4" column="14" selection-start="98" selection-end="98" vertical-scroll-proportion="0.13644524" vertical-offset="0" max-vertical-offset="1273">
           <folding />
         </state>
       </provider>
