@@ -60,7 +60,11 @@ footer a:active  {text-decoration: none;}
   font-weight: bold;
 }
 
-.post_list{margin: 0 0 15px 0;border-bottom: 1px solid #eee;padding-bottom: 5px;position: relative;list-style-type:none}
+.post-list{margin: 0 0 15px 0;border-bottom: 1px solid #eee;padding-bottom: 5px;position: relative;list-style-type:none}
+.post-list a:visited{text-decoration: none}
+.post-list a:hover{text-decoration: none}
+.post-list a:active{text-decoration: none}
+
 .post-info {margin-bottom: 0;background-color: #fbfbfb;border: 1px solid #ccc;border-top: none;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;color: #999;}
 
 .tag-label {
