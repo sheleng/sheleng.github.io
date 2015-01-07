@@ -65,7 +65,7 @@ footer a:active  {text-decoration: none;}
 }
 
 .link-description {text-align: center;}
-.link-description p{padding-top: 20px;padding-bottom: 20px;}
+.link-description p{padding-top: 10px;padding-bottom: 10px;}
 
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
