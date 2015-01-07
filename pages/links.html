@@ -36,7 +36,7 @@ links: active
   {% for post in site.posts %}
     {% if post.category == 'friendly-links' %}
       {% for friendly in post.link-list %}
-        <a href="{{ friendly.url }}">{{ recommended.title }}</a>
+        <a href="{{ friendly.url }}">{{ friendly.title }}</a>
       {% endfor %}
    {% endif %}
   {% endfor %}
