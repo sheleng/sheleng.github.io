@@ -14,5 +14,7 @@ link-list:
       url: http://coolshell.cn/
     - title: vczh
       url: http://www.cppblog.com/vczh
+    - title: 技术奇异点
+      url: http://techsingular.net/
 ---
 

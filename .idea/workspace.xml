@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-01-01-recommended-blogs.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="2015-01-01-recommended-blogs.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+            <state line="16" column="18" selection-start="365" selection-end="365" vertical-scroll-proportion="0.5117845" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-01-01-friendly-blogs.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2015-01-01-friendly-blogs.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="88" selection-end="88" vertical-scroll-proportion="0.1919192" vertical-offset="0" max-vertical-offset="594">
+            <state line="6" column="11" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-reccomended-blogs.md" />
         <option value="$PROJECT_DIR$/pages/links.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md" />
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md" />
+        <option value="$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md" />
       </list>
     </option>
   </component>
@@ -735,15 +735,15 @@
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
-      <workItem from="1420636240829" duration="6598000" />
+      <workItem from="1420636240829" duration="6833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27205000" />
+    <option name="totallyTimeSpent" value="27440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1004,16 +1004,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md">
+    <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+        <state line="6" column="11" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md">
+    <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="88" selection-end="88" vertical-scroll-proportion="0.1919192" vertical-offset="0" max-vertical-offset="594">
+        <state line="16" column="18" selection-start="365" selection-end="365" vertical-scroll-proportion="0.5117845" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>
