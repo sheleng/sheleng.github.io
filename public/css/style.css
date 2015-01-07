@@ -20,11 +20,6 @@ footer {
   background: #212121;
   color: #f2f2f2;
   text-align: center;
-  display: block;
-}
-
-footer a{
-    text-decoration: none;
 }
 
 #page_content{
