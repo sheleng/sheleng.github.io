@@ -122,19 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="64" selection-start="2594" selection-end="2594" vertical-scroll-proportion="0.7984085" vertical-offset="1105" max-vertical-offset="3800">
+            <state line="74" column="64" selection-start="2594" selection-end="2594" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="3800">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="links.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="4" selection-start="1243" selection-end="1243" vertical-scroll-proportion="-16.064516" vertical-offset="262" max-vertical-offset="988">
+            <state line="26" column="62" selection-start="793" selection-end="793" vertical-scroll-proportion="0.16991644" vertical-offset="433" max-vertical-offset="988">
               <folding />
             </state>
           </provider>
@@ -163,8 +163,8 @@
         <option value="$PROJECT_DIR$/pages/tools.html" />
         <option value="$PROJECT_DIR$/pages/blogs.html" />
         <option value="$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md" />
-        <option value="$PROJECT_DIR$/pages/links.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/pages/links.html" />
       </list>
     </option>
   </component>
@@ -740,15 +740,15 @@
       <created>1420557592738</created>
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
-      <workItem from="1420591453104" duration="16019000" />
+      <workItem from="1420591453104" duration="16637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19396000" />
+    <option name="totallyTimeSpent" value="20014000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -929,16 +929,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/links.html">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="1243" selection-end="1243" vertical-scroll-proportion="-16.064516" vertical-offset="262" max-vertical-offset="988">
+        <state line="74" column="64" selection-start="2594" selection-end="2594" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="3800">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/pages/links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="64" selection-start="2594" selection-end="2594" vertical-scroll-proportion="0.7984085" vertical-offset="1105" max-vertical-offset="3800">
+        <state line="26" column="62" selection-start="793" selection-end="793" vertical-scroll-proportion="0.16991644" vertical-offset="433" max-vertical-offset="988">
           <folding />
         </state>
       </provider>
