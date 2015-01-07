@@ -22,7 +22,7 @@ footer {
   text-align: center;
 }
 
-footer a:hover{
+footer a:hover a:active{
     text-decoration: none;
 }
 
