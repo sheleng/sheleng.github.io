@@ -74,7 +74,9 @@ footer a:active  {text-decoration: none;}
 
 .link-list{overflow: hidden;}
 .link-list .item{ list-style-type: none;float: left;padding: 0px 10px;border:none;border-radius:5px;margin:4px 8px;font-size:18px;color:rgb(145, 103, 103);}
-.link-list .item a:hover{background: rgb(145, 103, 103);color: white}
+.link-list .item a:hover{background: rgb(145, 103, 103);color: white;border-radius:5px;}
+.link-list .item a:active{background: rgb(145, 103, 103);color: white;border-radius:5px;}
+.link-list .item a:visited{background: rgb(145, 103, 103);color: white;border-radius:5px;}
 
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
