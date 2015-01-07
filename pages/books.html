@@ -25,9 +25,11 @@ books: active
     选项卡的内容：书单详情
   -->
   <div class='tab-content book-tab-content'>
+    {% capture first-book-list %}''{% endcapture %}
     {% for post in site.posts %}
       {% if post.category == 'books' %}
-        {% if forloop.first %}
+        {% if first-book-list == '' %}
+          {% capture first-book-list %}''{% endcapture %}
           <div class='tab-pane active' id='{{ post.title }}'>
         {% else %}
           <div class='tab-pane' id='{{ post.title }}'>

@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="books.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/books.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="2508" selection-end="2508" vertical-scroll-proportion="-39.064518" vertical-offset="119" max-vertical-offset="1444">
+            <state line="31" column="10" selection-start="761" selection-end="761" vertical-scroll-proportion="0.5475285" vertical-offset="301" max-vertical-offset="1482">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -84,19 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-01-01-book-list-2014.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="11" selection-start="80" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="798">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-01-01-book-list-2015.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2015-01-01-book-list-2015.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/books/2015-01-01-book-list-2015.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.40038314" vertical-offset="0" max-vertical-offset="522">
+            <state line="11" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
               <folding />
             </state>
           </provider>
@@ -132,7 +123,16 @@
       <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="23" selection-start="377" selection-end="377" vertical-scroll-proportion="0.38709676" vertical-offset="354" max-vertical-offset="931">
+            <state line="18" column="23" selection-start="354" selection-end="378" vertical-scroll-proportion="-0.61290324" vertical-offset="323" max-vertical-offset="931">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/archive.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="73" selection-start="114" selection-end="181" vertical-scroll-proportion="-1.6451613" vertical-offset="120" max-vertical-offset="817">
               <folding />
             </state>
           </provider>
@@ -185,9 +185,9 @@
         <option value="$PROJECT_DIR$/_posts/blogs/2014-08-16-ubuntu-use-update-alternatives.md" />
         <option value="$PROJECT_DIR$/pages/blogs.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/pages/books.html" />
         <option value="$PROJECT_DIR$/_posts/books/2013-01-01-book-list-2013.md" />
         <option value="$PROJECT_DIR$/_posts/books/2015-01-01-book-list-2015.md" />
+        <option value="$PROJECT_DIR$/pages/books.html" />
       </list>
     </option>
   </component>
@@ -803,12 +803,12 @@
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
-      <workItem from="1420636240829" duration="8851000" />
+      <workItem from="1420636240829" duration="9397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29458000" />
+    <option name="totallyTimeSpent" value="30004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -995,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/archive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="51" selection-end="71" vertical-scroll-proportion="-0.0" vertical-offset="114" max-vertical-offset="817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
@@ -1012,13 +1005,6 @@
     <entry file="file://$PROJECT_DIR$/_layouts/book-list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="4" vertical-scroll-proportion="7.354839" vertical-offset="228" max-vertical-offset="912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="377" selection-end="377" vertical-scroll-proportion="0.38709676" vertical-offset="354" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
@@ -1058,15 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/books.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2508" selection-end="2508" vertical-scroll-proportion="-39.064518" vertical-offset="119" max-vertical-offset="1444">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/books/2013-01-01-book-list-2013.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="17" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
@@ -1083,8 +1060,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/books/2015-01-01-book-list-2015.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.40038314" vertical-offset="0" max-vertical-offset="522">
+        <state line="11" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="354" selection-end="378" vertical-scroll-proportion="-0.61290324" vertical-offset="323" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="73" selection-start="114" selection-end="181" vertical-scroll-proportion="-1.6451613" vertical-offset="120" max-vertical-offset="817">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="10" selection-start="761" selection-end="761" vertical-scroll-proportion="0.5475285" vertical-offset="301" max-vertical-offset="1482">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
