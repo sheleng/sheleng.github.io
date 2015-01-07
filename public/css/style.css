@@ -71,7 +71,7 @@ footer a:active  {text-decoration: none;}
 .link-title .text{font-size: 18px;font-weight: normal;}
 .link-title .line{height: 1px;border-bottom: 1px solid #eeeeee;display: block;width:90%;float: right;margin-top:11px;}
 
-.link-list{float: left;}
+.link-list{overflow: hidden;}
 .link-list .item{ list-style-type: none;}
 
 .tabs-below > .nav-tabs,
