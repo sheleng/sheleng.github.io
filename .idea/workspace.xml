@@ -120,19 +120,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="82" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.5886403" vertical-offset="1083" max-vertical-offset="3819">
+            <state line="77" column="0" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.0" vertical-offset="1064" max-vertical-offset="3838">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="links.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="27" selection-start="297" selection-end="301" vertical-scroll-proportion="-5.645161" vertical-offset="91" max-vertical-offset="988">
+            <state line="22" column="35" selection-start="534" selection-end="534" vertical-scroll-proportion="0.37833038" vertical-offset="205" max-vertical-offset="988">
               <folding />
             </state>
           </provider>
@@ -161,10 +161,10 @@
         <option value="$PROJECT_DIR$/pages/tools.html" />
         <option value="$PROJECT_DIR$/pages/blogs.html" />
         <option value="$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md" />
-        <option value="$PROJECT_DIR$/pages/links.html" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/_posts/links/2013-01-01-book-list-2013.md" />
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/pages/links.html" />
       </list>
     </option>
   </component>
@@ -762,16 +762,16 @@
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
-      <workItem from="1420636240829" duration="1288000" />
+      <workItem from="1420636240829" duration="1884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21895000" />
+    <option name="totallyTimeSpent" value="22491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -792,7 +792,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -974,13 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="297" selection-end="301" vertical-scroll-proportion="-5.645161" vertical-offset="91" max-vertical-offset="988">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/blogs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="34" selection-start="681" selection-end="681" vertical-scroll-proportion="-14.709678" vertical-offset="0" max-vertical-offset="703">
@@ -1018,7 +1011,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="82" selection-start="2613" selection-end="2613" vertical-scroll-proportion="0.5886403" vertical-offset="1083" max-vertical-offset="3819">
+        <state line="77" column="0" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.0" vertical-offset="1064" max-vertical-offset="3838">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="35" selection-start="534" selection-end="534" vertical-scroll-proportion="0.37833038" vertical-offset="205" max-vertical-offset="988">
           <folding />
         </state>
       </provider>
