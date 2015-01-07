@@ -16,23 +16,14 @@ links: active
     <span class="line"></span>
   </p>
 </div>
-
 <div class="link-list">
-        <a>adfadf</a>
-        <a>adfadadsfadfadfadfadsfadfadfadfaff</a>
-        <a>adadsffadf</a>
-        <a>adfadf</a>
-        <a>adffasdfasdfasdfasdfasfadf</a>
-    <a>adfadf</a>
-    <a>adfadadsfadfadfadfadsfadfadfadfaff</a>
-    <a>adadsffadf</a>
-        <a>adfadadf</a>
-    <a>adfadf</a>
-    <a>adfadadsfadfadfadfadsfadfadfadfaff</a>
-    <a>adadsffadf</a>
-    <a>adfadf</a>
-    <a>adffasdfasdfasdfasdfasfadf</a>
-    <a>adfadadf</a>
+  {% for post in site.posts %}
+    {% if post.category == 'recommended-links' %}
+      {% for recommended in post.link-list %}
+        <a href="{{ recommended.url }}">{{ recommended.title }}</a>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
 </div>
 
 <div>
@@ -40,4 +31,13 @@ links: active
     <span class="text">友情链接</span>
     <span class="line"></span>
   </p>
+</div>
+<div class="link-list">
+  {% for post in site.posts %}
+    {% if post.category == 'friendly-links' %}
+      {% for friendly in post.link-list %}
+        <a href="{{ friendly.url }}">{{ recommended.title }}</a>
+      {% endfor %}
+   {% endif %}
+  {% endfor %}
 </div>
