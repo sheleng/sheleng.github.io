@@ -52,20 +52,14 @@ footer a:active  {text-decoration: none;}
   padding: 2px 3px
 }
 
-.post_date em {
-  font-style: normal;
-  font-family: Calibri;
-  font-size: 16pt;
-  display: block;
-  font-weight: bold;
-}
-
 .post-list{margin: 0 0 15px 0;border-bottom: 1px solid #eee;padding-bottom: 5px;position: relative;list-style-type:none}
 .post-list a:visited{text-decoration: none}
 .post-list a:hover{text-decoration: none}
 .post-list a:active{text-decoration: none}
 
 .post-info {margin-bottom: 0;background-color: #fbfbfb;border: 1px solid #ccc;border-top: none;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;color: #999;}
+
+.post-date em {font-style: normal;font-family: Calibri;font-size: 16pt;display: block;font-weight: bold;}
 
 .tag-label {
   display: inline-block;
