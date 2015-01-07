@@ -4,7 +4,7 @@ title: Intellij IDEA使用Javadoc工具生成注释文档时提示错误和乱�
 autor: Sheleng
 category: tools
 tags: [javadoc,idea]
-description: 在IntelliJ IDEA 使用 Tools->Generate JavaDoc在遇到中文时提示错误和乱码问题。
+description: 在IntelliJ IDEA 使用 Tools->Generate JavaDoc在遇到中文时提示错误和乱码问题的解决办法。
 ---
 
 ####1、运行Tools->Generate JavaDoc...
