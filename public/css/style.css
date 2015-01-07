@@ -67,9 +67,12 @@ footer a:active  {text-decoration: none;}
 .link-description {text-align: center;color:rgb(145, 103, 103)}
 .link-description p{padding-top: 5px;padding-bottom: 8px;}
 
-.lin-title{padding: 4px 0;overflow: hidden;}
+.link-title{padding: 4px 0;overflow: hidden;}
 .link-title .text{font-size: 18px;font-weight: normal;}
 .link-title .line{height: 1px;border-bottom: 1px solid #eeeeee;display: block;width:90%;float: right;margin-top:11px;}
+
+.link-list{float: left;}
+.link-list .item{ list-style-type: none;}
 
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
