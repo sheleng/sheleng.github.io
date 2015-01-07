@@ -25,11 +25,11 @@ books: active
     选项卡的内容：书单详情
   -->
   <div class='tab-content book-tab-content'>
-    {% capture first-book-list %}''{% endcapture %}
+    {% assign is-active = 'false' %}
     {% for post in site.posts %}
       {% if post.category == 'books' %}
-        {% if first-book-list == '' %}
-          {% first-book-list = 'active' %}
+        {% if is-active == 'false' %}
+          {% assign is-active = 'true' %}
           <div class='tab-pane active' id='{{ post.title }}'>
         {% else %}
           <div class='tab-pane' id='{{ post.title }}'>

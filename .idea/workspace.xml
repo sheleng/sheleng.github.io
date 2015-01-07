@@ -76,7 +76,7 @@
       <file leaf-file-name="books.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/books.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="38" selection-start="789" selection-end="789" vertical-scroll-proportion="0.5475285" vertical-offset="301" max-vertical-offset="1482">
+            <state line="31" column="37" selection-start="772" selection-end="772" vertical-scroll-proportion="0.4391635" vertical-offset="358" max-vertical-offset="1482">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -132,7 +132,7 @@
       <file leaf-file-name="archive.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/archive.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="73" selection-start="114" selection-end="181" vertical-scroll-proportion="-1.6451613" vertical-offset="120" max-vertical-offset="817">
+            <state line="9" column="73" selection-start="114" selection-end="181" vertical-scroll-proportion="-3.483871" vertical-offset="63" max-vertical-offset="817">
               <folding />
             </state>
           </provider>
@@ -803,12 +803,12 @@
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
-      <workItem from="1420636240829" duration="9528000" />
+      <workItem from="1420636240829" duration="10022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30135000" />
+    <option name="totallyTimeSpent" value="30629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1074,14 +1074,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/archive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="73" selection-start="114" selection-end="181" vertical-scroll-proportion="-1.6451613" vertical-offset="120" max-vertical-offset="817">
+        <state line="9" column="73" selection-start="114" selection-end="181" vertical-scroll-proportion="-3.483871" vertical-offset="63" max-vertical-offset="817">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/books.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="38" selection-start="789" selection-end="789" vertical-scroll-proportion="0.5475285" vertical-offset="301" max-vertical-offset="1482">
+        <state line="31" column="37" selection-start="772" selection-end="772" vertical-scroll-proportion="0.4391635" vertical-offset="358" max-vertical-offset="1482">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
