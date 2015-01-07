@@ -57,9 +57,9 @@ footer a:active  {text-decoration: none;}
 .post-list a:hover{text-decoration: none}
 .post-list a:active{text-decoration: none}
 
-.post-info {margin-bottom: 0;background-color: #fbfbfb;border: 1px solid #ccc;border-top: none;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;color: #999;}
-
 .post-date em {font-style: normal;font-family: Calibri;font-size: 16pt;display: block;font-weight: bold;}
+
+.post-info {margin-bottom: 0;background-color: #fbfbfb;border: 1px solid #ccc;border-top: none;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;color: #999;}
 
 .tag-label {
   display: inline-block;
