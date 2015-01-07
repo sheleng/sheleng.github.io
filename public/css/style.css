@@ -22,6 +22,10 @@ footer {
   text-align: center;
 }
 
+footer a:hover{
+    text-decoration: none;
+}
+
 #page_content{
   margin-left: auto;
   margin-right: auto;
