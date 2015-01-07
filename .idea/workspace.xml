@@ -104,10 +104,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2013-03-06-ubuntu-install-jdk-eclipse.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2013-03-06-ubuntu-install-jdk-eclipse.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/tools/2013-03-06-ubuntu-install-jdk-eclipse.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="98" selection-end="98" vertical-scroll-proportion="0.13644524" vertical-offset="0" max-vertical-offset="1273">
+            <state line="4" column="14" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1273">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014-01-01-book-list-2014.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="70" selection-start="336" selection-end="336" vertical-scroll-proportion="0.34111312" vertical-offset="38" max-vertical-offset="665">
               <folding />
             </state>
           </provider>
@@ -150,6 +159,7 @@
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_posts/tools/2013-03-06-ubuntu-install-jdk-eclipse.md" />
+        <option value="$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md" />
       </list>
     </option>
   </component>
@@ -242,10 +252,6 @@
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -261,21 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
+              <option name="myItemId" value="books" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -728,12 +720,12 @@
       <created>1420557592738</created>
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
-      <workItem from="1420591453104" duration="1210000" />
+      <workItem from="1420591453104" duration="1784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4587000" />
+    <option name="totallyTimeSpent" value="5161000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -870,7 +862,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/tools/2013-03-06-ubuntu-install-jdk-eclipse.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="98" selection-end="98" vertical-scroll-proportion="0.13644524" vertical-offset="0" max-vertical-offset="1273">
+        <state line="4" column="14" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="70" selection-start="336" selection-end="336" vertical-scroll-proportion="0.34111312" vertical-offset="38" max-vertical-offset="665">
           <folding />
         </state>
       </provider>
