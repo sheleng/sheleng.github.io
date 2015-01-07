@@ -69,7 +69,7 @@ footer a:active  {text-decoration: none;}
 
 .lin-title{padding: 4px 0;overflow: hidden;}
 .link-title .text{font-size: 18px;font-weight: normal;}
-.link-title .line{height: 1px;border-bottom: 1px solid #eeeeee;display: block;float: right;margin-top:11px;}
+.link-title .line{height: 1px;border-bottom: 1px solid #eeeeee;display: block;width:auto;float: right;margin-top:11px;}
 
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
