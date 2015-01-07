@@ -29,7 +29,7 @@ books: active
     {% for post in site.posts %}
       {% if post.category == 'books' %}
         {% if first-book-list == '' %}
-          {% capture first-book-list %}''{% endcapture %}
+          {% first-book-list = 'active' %}
           <div class='tab-pane active' id='{{ post.title }}'>
         {% else %}
           <div class='tab-pane' id='{{ post.title }}'>
