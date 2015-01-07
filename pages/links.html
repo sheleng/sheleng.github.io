@@ -17,10 +17,11 @@ links: active
   </p>
 </div>
 <div class="link-list">
+  <a href="" target="_blank">Test</a>
   {% for post in site.posts %}
     {% if post.category == 'recommended-links' %}
       {% for recommended in post.link-list %}
-        <a href="{{ recommended.url }}" class="item">{{ recommended.title }}</a>
+        <a href="{{ recommended.url }}" target="_blank">{{ recommended.title }}</a>
       {% endfor %}
     {% endif %}
   {% endfor %}
@@ -36,7 +37,7 @@ links: active
   {% for post in site.posts %}
     {% if post.category == 'friendly-links' %}
       {% for friendly in post.link-list %}
-        <a href="{{ friendly.url }}" class="item">{{ friendly.title }}</a>
+        <a href="{{ friendly.url }}" target="_blank">{{ friendly.title }}</a>
       {% endfor %}
    {% endif %}
   {% endfor %}
