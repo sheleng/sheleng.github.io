@@ -67,7 +67,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="20" selection-start="1583" selection-end="1583" vertical-scroll-proportion="-12.225806" vertical-offset="761" max-vertical-offset="1425">
+            <state line="60" column="20" selection-start="1583" selection-end="1583" vertical-scroll-proportion="-36.774193" vertical-offset="0" max-vertical-offset="1425">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="20" selection-start="1850" selection-end="1850" vertical-scroll-proportion="-31.258064" vertical-offset="0" max-vertical-offset="1482">
+            <state line="69" column="87" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.72545457" vertical-offset="912" max-vertical-offset="1501">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.686747" vertical-offset="95" max-vertical-offset="4446">
+            <state line="26" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="4446">
               <folding />
             </state>
           </provider>
@@ -119,12 +119,12 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/blogs/2013-03-06-ubuntu-install-jdk-eclipse.md" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_posts/tools/2014-07-28-intelliJ-idea-javadoc-setting.md" />
         <option value="$PROJECT_DIR$/_posts/tools/2013-03-06-ubuntu-install-jdk-eclipse.md" />
         <option value="$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
       </list>
     </option>
   </component>
@@ -219,20 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -717,12 +703,12 @@
       <created>1420557592738</created>
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
-      <workItem from="1420591453104" duration="5785000" />
+      <workItem from="1420591453104" duration="5965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9162000" />
+    <option name="totallyTimeSpent" value="9342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -811,22 +797,6 @@
         <state line="8" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.26998225" vertical-offset="0" max-vertical-offset="563" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="20" selection-start="1850" selection-end="1850" vertical-scroll-proportion="-31.258064" vertical-offset="0" max-vertical-offset="1482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="20" selection-start="1583" selection-end="1583" vertical-scroll-proportion="-12.225806" vertical-offset="761" max-vertical-offset="1425">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="21" selection-end="324" vertical-scroll-proportion="0.13818182" vertical-offset="0" max-vertical-offset="550">
@@ -880,7 +850,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.686747" vertical-offset="95" max-vertical-offset="4446">
+        <state line="26" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="4446">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="20" selection-start="1583" selection-end="1583" vertical-scroll-proportion="-36.774193" vertical-offset="0" max-vertical-offset="1425">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="87" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.72545457" vertical-offset="912" max-vertical-offset="1501">
           <folding />
         </state>
       </provider>
