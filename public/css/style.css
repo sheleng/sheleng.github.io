@@ -24,6 +24,7 @@ footer a:active  {text-decoration: none;}
 .index-left ul{padding-left: 0px;list-style-type: none;}
 .index-right{width: 35%;float: right;}
 .index-right ul{padding-left: 0px;list-style-type: none;}
+
 .content-title{height: 37px;line-height: 37px;margin-bottom: 5px;font-size: 100%;font-weight: normal;}
 
 .content-title .title{
@@ -72,7 +73,7 @@ footer a:active  {text-decoration: none;}
 .link-title .line{height: 1px;border-bottom: 1px solid #eeeeee;display: block;width:90%;float: right;margin-top:11px;}
 
 .link-list{overflow: hidden;}
-.link-list .item{ list-style-type: none;float: left;padding-left: 20px}
+.link-list .item{ list-style-type: none;float: left;padding: 0px 10px;border:none;border-radius:2px;}
 
 .tabs-below > .nav-tabs,
 .tabs-right > .nav-tabs,
