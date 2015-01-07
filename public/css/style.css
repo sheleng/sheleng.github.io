@@ -66,7 +66,7 @@ footer a:active  {text-decoration: none;}
 
 .link-description {text-align: center;color:rgb(145, 103, 103)}
 .link-description p{padding-top: 5px;padding-bottom: 8px;}
-.link-title-text{font-size: 18px;float: left}
+.link-title-text{font-size: 18px;}
 .link-title-line{height: 1px;border-bottom: 1px solid #ededed;display: block;float: right;}
 
 .tabs-below > .nav-tabs,
