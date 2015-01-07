@@ -122,19 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="22" selection-start="2196" selection-end="2196" vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="3705">
+            <state line="67" column="17" selection-start="2195" selection-end="2211" vertical-scroll-proportion="0.7984085" vertical-offset="972" max-vertical-offset="3667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="190" selection-end="190" vertical-scroll-proportion="0.52924794" vertical-offset="0" max-vertical-offset="359">
+            <state line="10" column="48" selection-start="236" selection-end="236" vertical-scroll-proportion="-6.129032" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -163,8 +163,8 @@
         <option value="$PROJECT_DIR$/pages/tools.html" />
         <option value="$PROJECT_DIR$/pages/blogs.html" />
         <option value="$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/pages/links.html" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -740,12 +740,12 @@
       <created>1420557592738</created>
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
-      <workItem from="1420591453104" duration="11253000" />
+      <workItem from="1420591453104" duration="12042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14630000" />
+    <option name="totallyTimeSpent" value="15419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -929,16 +929,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/pages/links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="22" selection-start="2196" selection-end="2196" vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="3705">
+        <state line="10" column="48" selection-start="236" selection-end="236" vertical-scroll-proportion="-6.129032" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/links.html">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="190" selection-end="190" vertical-scroll-proportion="0.52924794" vertical-offset="0" max-vertical-offset="359">
+        <state line="67" column="17" selection-start="2195" selection-end="2211" vertical-scroll-proportion="0.7984085" vertical-offset="972" max-vertical-offset="3667">
           <folding />
         </state>
       </provider>
