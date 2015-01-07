@@ -64,19 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="17" selection-start="1457" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="3895">
+            <state line="48" column="26" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.48833033" vertical-offset="640" max-vertical-offset="3895">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogs.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blogs.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/blogs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="38" selection-start="255" selection-end="255" vertical-scroll-proportion="0.17625232" vertical-offset="114" max-vertical-offset="703">
+            <state line="11" column="38" selection-start="255" selection-end="255" vertical-scroll-proportion="-6.7419353" vertical-offset="0" max-vertical-offset="703">
               <folding />
             </state>
           </provider>
@@ -155,8 +155,8 @@
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md" />
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md" />
         <option value="$PROJECT_DIR$/_posts/blogs/2014-08-16-ubuntu-use-update-alternatives.md" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/pages/blogs.html" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -754,12 +754,12 @@
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
-      <workItem from="1420636240829" duration="8340000" />
+      <workItem from="1420636240829" duration="8387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28947000" />
+    <option name="totallyTimeSpent" value="28994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1025,16 +1025,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/pages/blogs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="1457" selection-end="1473" vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="3895">
+        <state line="11" column="38" selection-start="255" selection-end="255" vertical-scroll-proportion="-6.7419353" vertical-offset="0" max-vertical-offset="703">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/blogs.html">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="255" selection-end="255" vertical-scroll-proportion="0.17625232" vertical-offset="114" max-vertical-offset="703">
+        <state line="48" column="26" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.48833033" vertical-offset="640" max-vertical-offset="3895">
           <folding />
         </state>
       </provider>
