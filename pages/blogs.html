@@ -22,11 +22,11 @@ blogs: active
               {% endfor %}
             </p>
           </div>
-      	  <span class="post-date">
-          	<em>{{ post.date | date: "%d"}}</em>
-            {{ post.date | date: "%Y-%m" }}
-          </span>
-      	</li>      
+      	</li>
+        <span class="post-date">
+          <em>{{ post.date | date: "%d"}}</em>
+          {{ post.date | date: "%Y-%m" }}
+        </span>
     {% endif %}
   {% endfor %}
 </ul>
