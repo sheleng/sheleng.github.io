@@ -72,8 +72,7 @@ footer a:active  {text-decoration: none;}
 .link-title .text{font-size: 18px;font-weight: normal;}
 .link-title .line{height: 1px;border-bottom: 1px solid #eeeeee;display: block;width:90%;float: right;margin-top:11px;}
 
-.link-list{overflow: hidden;}
-.link-list a{ list-style-type: none;float: left;padding: 0px 10px;border:none;border-radius:5px;margin:4px 8px;font-size:18px;color:rgb(145, 103, 103);}
+.link-list{overflow: hidden;list-style-type: none;float: left;padding: 0px 10px;border:none;border-radius:5px;margin:4px 8px;font-size:18px;color:rgb(145, 103, 103);}
 .link-list a:hover{text-decoration: none;background: rgb(145, 103, 103);color: white;border-radius:5px;}
 .link-list a:active{text-decoration: none;background: rgb(145, 103, 103);color: white;border-radius:5px;}
 .link-list a:visited{text-decoration: none;background: rgb(145, 103, 103);color: white;border-radius:5px;}
