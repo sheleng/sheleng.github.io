@@ -9,7 +9,7 @@ blogs: active
 	{% if post.category == 'blogs' %}
       	<li class="post-list">
       	  <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-      	  <div>
+      	  <div class="post-description">
           	<p>{{ post.description }}</p>
           	<p>
               标签：                     
@@ -22,11 +22,11 @@ blogs: active
               {% endfor %}
             </p>
           </div>
+      	  <span class="post-date">
+          	<em>{{ post.date | date: "%d"}}</em>
+            {{ post.date | date: "%Y-%m" }}
+          </span>
       	</li>
-        <span class="post-date">
-          <em>{{ post.date | date: "%d"}}</em>
-          {{ post.date | date: "%Y-%m" }}
-        </span>
     {% endif %}
   {% endfor %}
 </ul>
