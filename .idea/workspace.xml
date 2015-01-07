@@ -67,7 +67,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="105" selection-start="2841" selection-end="2841" vertical-scroll-proportion="0.4767642" vertical-offset="1186" max-vertical-offset="3857">
+            <state line="75" column="98" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.41135973" vertical-offset="1186" max-vertical-offset="3857">
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
       <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="73" selection-start="941" selection-end="1019" vertical-scroll-proportion="-14.32258" vertical-offset="297" max-vertical-offset="950">
+            <state line="18" column="23" selection-start="377" selection-end="377" vertical-scroll-proportion="0.38709676" vertical-offset="354" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -726,12 +726,12 @@
       <updated>1420557592738</updated>
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
-      <workItem from="1420636240829" duration="6120000" />
+      <workItem from="1420636240829" duration="6270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26727000" />
+    <option name="totallyTimeSpent" value="26877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -997,14 +997,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="73" selection-start="941" selection-end="1019" vertical-scroll-proportion="-14.32258" vertical-offset="297" max-vertical-offset="950">
+        <state line="18" column="23" selection-start="377" selection-end="377" vertical-scroll-proportion="0.38709676" vertical-offset="354" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="105" selection-start="2841" selection-end="2841" vertical-scroll-proportion="0.4767642" vertical-offset="1186" max-vertical-offset="3857">
+        <state line="75" column="98" selection-start="2629" selection-end="2629" vertical-scroll-proportion="0.41135973" vertical-offset="1186" max-vertical-offset="3857">
           <folding />
         </state>
       </provider>
