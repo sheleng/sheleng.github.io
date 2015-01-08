@@ -64,19 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="22" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-11.0" vertical-offset="476" max-vertical-offset="1425">
+            <state line="43" column="87" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.62" vertical-offset="476" max-vertical-offset="1425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="29" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.53356284" vertical-offset="507" max-vertical-offset="3933">
+            <state line="43" column="29" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="3933">
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md" />
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md" />
         <option value="$PROJECT_DIR$/pages/archive.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -767,12 +767,12 @@
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
       <workItem from="1420636240829" duration="10519000" />
-      <workItem from="1420677711433" duration="8215000" />
+      <workItem from="1420677711433" duration="8653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39341000" />
+    <option name="totallyTimeSpent" value="39779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1080,16 +1080,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="22" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-11.0" vertical-offset="476" max-vertical-offset="1425">
+        <state line="43" column="29" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="507" max-vertical-offset="3933">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.53356284" vertical-offset="507" max-vertical-offset="3933">
+        <state line="43" column="87" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.62" vertical-offset="476" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
