@@ -39,7 +39,8 @@ footer a:active  {text-decoration: none;}
   text-align: center;
 }
 
-.gray-3{color: #888;vertical-align: bottom;}
+.gray-3{color: #888;}
+.gray-3 p{vertical-align: bottom;}
 
 .post-list{margin: 0 0 15px 0;border-bottom: 1px solid #eee;padding-bottom: 5px;position: relative;list-style-type:none;}
 .post-list a:visited{text-decoration: none}
