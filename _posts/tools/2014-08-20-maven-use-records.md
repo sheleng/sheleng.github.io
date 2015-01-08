@@ -22,6 +22,7 @@ Maven是一个Java工具，所以在安装Maven前，需要确保你的机器上
 编辑~/.bashrc文件，在~/.bashrc文件中添加M2_HOME、M2环境变量，并将M2添加到PATH路径，如：
 
 `vim ~/.bashrc`
+
 ![](/public/images/posts/tools/2014-08-20-maven-use-records/vim-bashrc.png)
 
 其中MAVEN_OPTS环境变量设置了JVM属性（可选），这个环境变量可以用于设置Maven的扩展选项。
