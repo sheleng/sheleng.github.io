@@ -6,21 +6,22 @@ archive: active
 
 <div class="times">
     {% assign is_first = true %}
-    {% for post in site.posts  %}
-      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-      {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
-      {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-      {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
-      {% if post.category == 'blogs' or post.category == 'tools' %}
-      {% if is_first %}
-        {% assign is_first = false %}
-        <legend id="{{this_year}}-{{this_month}}">{{this_year}}-{{this_month}}</legend>
-        <ul>
-      {% endif %}
+      {% for post in site.posts  %}
+        {% if post.category == 'blogs' or post.category == 'tools' %}
+          {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+          {% capture this_month %}{{ post.date | date: "%m" }}{% endcapture %}
+          {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+          {% capture next_month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
+
+          {% if is_first %}
+            {% assign is_first = false %}
+            <legend id="{{this_year}}-{{this_month}}">{{this_year}}-{{this_month}}</legend>
+            <ul>
+          {% endif %}
         
-      <li><b></b><span>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;<a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a></span></li>
+          <li><b></b><span>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;<a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a></span></li>
     
-      {% if forloop.last %}
+          {% if forloop.last %}
         </ul>
       {% else %}
         {% if this_year != next_year %}
