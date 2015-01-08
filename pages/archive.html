@@ -21,7 +21,7 @@ archive: active
 
       {% if this_year_month != pre_year_month %}
         </ul>
-        <legend id="{{ next_year_month }}">{{ next_year_month }}</legend>
+        <legend id="{{ pre_year_month }}">{{ pre_year_month }}</legend>
         <ul>
       {% endif %}
       {% capture pre_year_month %}{{ post.date | date: "%Y-%m" }}{% endcapture %}
