@@ -5,7 +5,7 @@ archive: active
 ---
 
 <div class="times">
-    {% assign is-first = true %}
+    {% assign is-first = 'true' %}
     {% for post in site.posts  %}
       {% if post.category == 'blogs' or post.category == 'tools' %}
         {% capture this-year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -13,8 +13,8 @@ archive: active
         {% capture next-year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
         {% capture next-month %}{{ post.previous.date | date: "%m" }}{% endcapture %}
       
-        {% if is-first %}
-          {% assign is-first = false %}
+        {% if is-first == 'true' %}
+          {% assign is-first = 'false' %}
           <legend id="{{this-year}}-{{this-month}}">{{this-year}}-{{this-month}}</legend>
           <ul>
         {% endif %}
