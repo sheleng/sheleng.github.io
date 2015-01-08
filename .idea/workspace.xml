@@ -82,10 +82,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archive.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="archive.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/archive.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.34727272" vertical-offset="324" max-vertical-offset="874">
+            <state line="7" column="2" selection-start="73" selection-end="73" vertical-scroll-proportion="-4.290323" vertical-offset="0" max-vertical-offset="874">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-01-friendly-blogs.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="11" selection-start="145" selection-end="145" vertical-scroll-proportion="0.25589225" vertical-offset="0" max-vertical-offset="594">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-01-01-recommended-blogs.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="15" selection-start="95" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
               <folding />
             </state>
           </provider>
@@ -113,7 +131,6 @@
         <option value="$PROJECT_DIR$/_posts/links/2013-01-01-book-list-2013.md" />
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-reccomended-blogs.md" />
         <option value="$PROJECT_DIR$/pages/links.html" />
-        <option value="$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md" />
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md" />
         <option value="$PROJECT_DIR$/_posts/blogs/2014-08-16-ubuntu-use-update-alternatives.md" />
         <option value="$PROJECT_DIR$/pages/blogs.html" />
@@ -124,6 +141,7 @@
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md" />
         <option value="$PROJECT_DIR$/pages/archive.html" />
+        <option value="$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md" />
       </list>
     </option>
   </component>
@@ -212,11 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,7 +244,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheleng.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheleng.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="links" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,12 +722,12 @@
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
       <workItem from="1420636240829" duration="10519000" />
-      <workItem from="1420677711433" duration="4654000" />
+      <workItem from="1420677711433" duration="5525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35780000" />
+    <option name="totallyTimeSpent" value="36651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -943,13 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="455" selection-end="455" vertical-scroll-proportion="0.6333333" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blogs/2014-08-16-ubuntu-use-update-alternatives.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="0" selection-start="1484" selection-end="1528" vertical-scroll-proportion="0.93177736" vertical-offset="412" max-vertical-offset="1102">
@@ -985,13 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="82" selection-end="115" vertical-scroll-proportion="0.1919192" vertical-offset="0" max-vertical-offset="594">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/books.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="19" selection-start="748" selection-end="754" vertical-scroll-proportion="-5.516129" vertical-offset="418" max-vertical-offset="1482">
@@ -1008,7 +1026,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/archive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.34727272" vertical-offset="324" max-vertical-offset="874">
+        <state line="7" column="2" selection-start="73" selection-end="73" vertical-scroll-proportion="-4.290323" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="95" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/links/2015-01-01-friendly-blogs.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="145" selection-end="145" vertical-scroll-proportion="0.25589225" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>
