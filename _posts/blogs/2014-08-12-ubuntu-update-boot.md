@@ -3,7 +3,7 @@ layout: blog-post
 title: Ubuntu升级时出现/boot空间不足的解决方法
 autor: Sheleng
 category: blogs
-tags: [kde.xml,ubuntu]
+tags: [ubuntu]
 description: Ubuntu经常会提示升级内核，几次升级过后就会提示/boot空间不足的情况。本文就针对该问题提出一个解决方法。
 ---
 
