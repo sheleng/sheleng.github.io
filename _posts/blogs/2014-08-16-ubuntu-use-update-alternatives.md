@@ -27,10 +27,9 @@ update-alternatives命令是专门用于维护系统命令链接符的工具，�
 
 使用的到的命令是update-alternatives --install  link name path priority，具体命令如下：
 
-`sheleng@r61e:~$ sudo update-alternatives --install \`
-`/usr/bin/java java /usr/local/java/jdk1.7.0_60/bin/java 1061`
-
-`sheleng@r61e:~$ sudo update-alternatives --install \`
+`sheleng@r61e:~$ sudo update-alternatives --install \`  
+`/usr/bin/java java /usr/local/java/jdk1.7.0_60/bin/java 1061`  
+`sheleng@r61e:~$ sudo update-alternatives --install \`  
 `/usr/bin/javac javac /usr/local/java/jdk1.7.0_60/bin/javac 1061`
 
 其中link是主链接的全称；
