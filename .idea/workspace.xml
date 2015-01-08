@@ -73,19 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="23" selection-start="416" selection-end="416" vertical-scroll-proportion="0.5232358" vertical-offset="0" max-vertical-offset="3971">
+            <state line="16" column="23" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3971">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="16" selection-start="2098" selection-end="2098" vertical-scroll-proportion="-19.580645" vertical-offset="552" max-vertical-offset="1501">
+            <state line="51" column="85" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.6545454" vertical-offset="609" max-vertical-offset="1501">
               <folding />
             </state>
           </provider>
@@ -108,7 +108,6 @@
         <option value="$PROJECT_DIR$/_posts/tools/2014-07-28-intelliJ-idea-javadoc-setting.md" />
         <option value="$PROJECT_DIR$/_posts/tools/2013-03-06-ubuntu-install-jdk-eclipse.md" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/pages/tools.html" />
         <option value="$PROJECT_DIR$/_posts/links/2013-01-01-book-list-2013.md" />
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-reccomended-blogs.md" />
@@ -124,6 +123,7 @@
         <option value="$PROJECT_DIR$/pages/archive.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
       </list>
     </option>
   </component>
@@ -705,12 +705,12 @@
       <workItem from="1420591453104" duration="17230000" />
       <workItem from="1420636240829" duration="10519000" />
       <workItem from="1420677711433" duration="11242000" />
-      <workItem from="1420699537617" duration="871000" />
+      <workItem from="1420699537617" duration="900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43239000" />
+    <option name="totallyTimeSpent" value="43268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -990,16 +990,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="16" selection-start="2098" selection-end="2098" vertical-scroll-proportion="-19.580645" vertical-offset="552" max-vertical-offset="1501">
+        <state line="16" column="23" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3971">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="416" selection-end="416" vertical-scroll-proportion="0.5232358" vertical-offset="0" max-vertical-offset="3971">
+        <state line="51" column="85" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.6545454" vertical-offset="609" max-vertical-offset="1501">
           <folding />
         </state>
       </provider>
