@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <file leaf-file-name="2014-01-01-book-list-2014.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="105" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.6316695" vertical-offset="1134" max-vertical-offset="3895">
+            <state line="42" column="0" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.79533213" vertical-offset="355" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -137,7 +137,6 @@
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/pages/tools.html" />
-        <option value="$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md" />
         <option value="$PROJECT_DIR$/_posts/links/2013-01-01-book-list-2013.md" />
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-reccomended-blogs.md" />
         <option value="$PROJECT_DIR$/pages/links.html" />
@@ -150,6 +149,7 @@
         <option value="$PROJECT_DIR$/pages/books.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md" />
       </list>
     </option>
   </component>
@@ -273,42 +273,6 @@
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="links" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -325,24 +289,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="books" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sheleng.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -802,12 +748,12 @@
       <workItem from="1420557594308" duration="3377000" />
       <workItem from="1420591453104" duration="17230000" />
       <workItem from="1420636240829" duration="10519000" />
-      <workItem from="1420677711433" duration="454000" />
+      <workItem from="1420677711433" duration="1355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31580000" />
+    <option name="totallyTimeSpent" value="32481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -943,7 +889,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="798" />
+        <state line="12" column="47" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="798">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tools.html">
@@ -1041,11 +989,6 @@
         <state line="11" column="38" selection-start="255" selection-end="255" vertical-scroll-proportion="-6.7419353" vertical-offset="0" max-vertical-offset="703" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="80" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="798" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/links.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="23" selection-start="354" selection-end="378" vertical-scroll-proportion="-0.61290324" vertical-offset="323" max-vertical-offset="931" />
@@ -1107,6 +1050,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="105" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.6316695" vertical-offset="1134" max-vertical-offset="3895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="68" selection-start="404" selection-end="404" vertical-scroll-proportion="-2.8709676" vertical-offset="215" max-vertical-offset="1425">
@@ -1114,9 +1064,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/_posts/books/2014-01-01-book-list-2014.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="105" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.6316695" vertical-offset="1134" max-vertical-offset="3895">
+        <state line="42" column="0" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.79533213" vertical-offset="355" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
