@@ -73,19 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3971">
+            <state line="16" column="46" selection-start="470" selection-end="470" vertical-scroll-proportion="0.5232358" vertical-offset="0" max-vertical-offset="3971">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="17" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.6749556" vertical-offset="627" max-vertical-offset="1539">
+            <state line="53" column="17" selection-start="1963" selection-end="1963" vertical-scroll-proportion="-14.096774" vertical-offset="570" max-vertical-offset="1539">
               <folding />
             </state>
           </provider>
@@ -122,8 +122,8 @@
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md" />
         <option value="$PROJECT_DIR$/pages/archive.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -705,12 +705,12 @@
       <workItem from="1420591453104" duration="17230000" />
       <workItem from="1420636240829" duration="10519000" />
       <workItem from="1420677711433" duration="11242000" />
-      <workItem from="1420699537617" duration="1244000" />
+      <workItem from="1420699537617" duration="1404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43612000" />
+    <option name="totallyTimeSpent" value="43772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -983,9 +983,9 @@
         <state line="31" column="19" selection-start="748" selection-end="754" vertical-scroll-proportion="0.3109091" vertical-offset="418" max-vertical-offset="1482" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3971">
+        <state line="53" column="17" selection-start="1963" selection-end="1963" vertical-scroll-proportion="-14.096774" vertical-offset="570" max-vertical-offset="1539">
           <folding />
         </state>
       </provider>
@@ -997,9 +997,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="17" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.6749556" vertical-offset="627" max-vertical-offset="1539">
+        <state line="16" column="46" selection-start="470" selection-end="470" vertical-scroll-proportion="0.5232358" vertical-offset="0" max-vertical-offset="3971">
           <folding />
         </state>
       </provider>
