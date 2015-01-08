@@ -6,10 +6,10 @@ archive: active
 
 <div class="times">
   {% assign is_first = true %}
+  {% capture pre_year_month %}{{ '' }}{% endcapture %}
   {% for post in site.posts  %}
     {% if post.category == 'blogs' or post.category == 'tools' %}
       {% capture this_year_month %}{{ post.date | date: "%Y-%m" }}{% endcapture %}
-      {% capture next_year_month %}{{ post.previous.date | date: "%Y-%m" }}{% endcapture %}
 
       {% if is_first %}
         {% assign is_first = false %}
@@ -19,11 +19,12 @@ archive: active
 
       <li><b></b><span>{{ post.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;<a class="pjaxlink" href="{{ post.url }}">{{ post.title }}</a></span></li>
 
-      {% if this_year_month != next_year_month %}
+      {% if this_year_month != pre_year_month %}
         </ul>
         <legend id="{{ next_year_month }}">{{ next_year_month }}</legend>
         <ul>
       {% endif %}
+      {% capture pre_year_month %}{{ post.date | date: "%Y-%m" }}{% endcapture %}
     {% endif %}
   {% endfor %}
   </ul>
