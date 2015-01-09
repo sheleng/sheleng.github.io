@@ -2,7 +2,7 @@
 layout: default
 title: 标签
 ---
-<div onloadstart="showTagPost()">
+<div onshow="showTagPost()">
   {% for tag in site.tags %}
     <ul id="{{ tag[0] }}" style="display: none">
       {% for post in tag[1] %}
