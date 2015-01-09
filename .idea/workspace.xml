@@ -96,7 +96,7 @@
       <file leaf-file-name="tag.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/tag.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="89" selection-end="89" vertical-scroll-proportion="0.1687389" vertical-offset="0" max-vertical-offset="703">
+            <state line="6" column="29" selection-start="127" selection-end="127" vertical-scroll-proportion="0.20248668" vertical-offset="0" max-vertical-offset="703">
               <folding />
             </state>
           </provider>
@@ -123,7 +123,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="36" selection-start="1241" selection-end="1241" vertical-scroll-proportion="-3.6774194" vertical-offset="741" max-vertical-offset="1425">
+            <state line="23" column="54" selection-start="665" selection-end="668" vertical-scroll-proportion="-10.419354" vertical-offset="114" max-vertical-offset="1425">
               <folding />
             </state>
           </provider>
@@ -763,12 +763,12 @@
       <workItem from="1420677711433" duration="11242000" />
       <workItem from="1420699537617" duration="1665000" />
       <workItem from="1420768258567" duration="1762000" />
-      <workItem from="1420785493792" duration="3635000" />
+      <workItem from="1420785493792" duration="3951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49430000" />
+    <option name="totallyTimeSpent" value="49746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1053,14 +1053,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="36" selection-start="1241" selection-end="1241" vertical-scroll-proportion="-3.6774194" vertical-offset="741" max-vertical-offset="1425">
+        <state line="23" column="54" selection-start="665" selection-end="668" vertical-scroll-proportion="-10.419354" vertical-offset="114" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="89" selection-end="89" vertical-scroll-proportion="0.1687389" vertical-offset="0" max-vertical-offset="703">
+        <state line="6" column="29" selection-start="127" selection-end="127" vertical-scroll-proportion="0.20248668" vertical-offset="0" max-vertical-offset="703">
           <folding />
         </state>
       </provider>
