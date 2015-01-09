@@ -82,5 +82,5 @@ function getQueryParam(name) {
 
 function showTagPost(){
     var tag = getQueryParam('tag');
-    if(tag != null) document.getElementById(tag).addClass('active');
+    if(tag != null) document.getElementById(tag).style.display = 'block';
 }
