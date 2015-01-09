@@ -4,7 +4,7 @@ title: 标签
 ---
 <div onloadeddata="showTagPost()">
   {% for tag in site.tags %}
-    <ul id="{{ tag[1] }}" style="display: none">
+    <ul id="{{ tag[0] }}" style="display: none">
       {% for post in tag[1] %}
           <li class="post-list">
             <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
