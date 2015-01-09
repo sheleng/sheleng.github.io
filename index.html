@@ -21,7 +21,7 @@ index: active
   		  	  	  标签：
   		  	      {% for tag in post.tags %}
   		  	    	  {% if forloop.first %}
-  		  	    	    <a href="{{ site.baseurl }}/pages/tags?tag={{ tag[0] }}" class="tag-label">{{ tag }}</a>
+  		  	    	    <a href="{{ site.baseurl }}/pages/tags?tag={{ tag }}" class="tag-label">{{ tag }}</a>
   		  	    	  {% else %}
 				        &nbsp;<a href="{{ site.baseurl }}/pages/tags?tag={{ tag }}" class="tag-label">{{ tag }}</a>
 				      {% endif %}
