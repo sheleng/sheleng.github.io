@@ -93,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tags.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tags.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/tags.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="38" selection-end="38" vertical-scroll-proportion="2.6774194" vertical-offset="159" max-vertical-offset="722">
+            <state line="18" column="79" selection-start="671" selection-end="671" vertical-scroll-proportion="0.6501901" vertical-offset="0" max-vertical-offset="722">
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -149,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tools.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tools.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/tools.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="19" selection-start="894" selection-end="894" vertical-scroll-proportion="0.8536122" vertical-offset="83" max-vertical-offset="703">
+            <state line="28" column="19" selection-start="894" selection-end="894" vertical-scroll-proportion="-14.4838705" vertical-offset="83" max-vertical-offset="703">
               <folding />
             </state>
           </provider>
@@ -187,13 +187,13 @@
         <option value="$PROJECT_DIR$/pages/archive.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_layouts/blog-post.html" />
-        <option value="$PROJECT_DIR$/pages/tags.html" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/pages/tag.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/blogs.html" />
         <option value="$PROJECT_DIR$/pages/tools.html" />
+        <option value="$PROJECT_DIR$/pages/tags.html" />
       </list>
     </option>
   </component>
@@ -801,12 +801,12 @@
       <workItem from="1420677711433" duration="11242000" />
       <workItem from="1420699537617" duration="1665000" />
       <workItem from="1420768258567" duration="1762000" />
-      <workItem from="1420785493792" duration="6600000" />
+      <workItem from="1420785493792" duration="6716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52395000" />
+    <option name="totallyTimeSpent" value="52511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1065,15 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="38" selection-end="38" vertical-scroll-proportion="2.6774194" vertical-offset="159" max-vertical-offset="722">
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="23" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="3990">
@@ -1104,8 +1095,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tools.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="19" selection-start="894" selection-end="894" vertical-scroll-proportion="0.8536122" vertical-offset="83" max-vertical-offset="703">
+        <state line="28" column="19" selection-start="894" selection-end="894" vertical-scroll-proportion="-14.4838705" vertical-offset="83" max-vertical-offset="703">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="79" selection-start="671" selection-end="671" vertical-scroll-proportion="0.6501901" vertical-offset="0" max-vertical-offset="722">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
