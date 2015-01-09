@@ -3,7 +3,7 @@ layout: default
 title: 标签
 ---
 <div onloadeddata="showTagPost()">
-  {% for tag in page.tags %}
+  {% for tag in site.tags %}
     <ul class="" id="{{ tag }}">
       {% for post in tag[1] %}
           <li class="post-list">
