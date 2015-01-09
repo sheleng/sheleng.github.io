@@ -122,10 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="48" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.6218182" vertical-offset="741" max-vertical-offset="1425">
+            <state line="23" column="36" selection-start="650" selection-end="650" vertical-scroll-proportion="-6.7419353" vertical-offset="228" max-vertical-offset="1425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="23" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.6481149" vertical-offset="912" max-vertical-offset="3990">
               <folding />
             </state>
           </provider>
@@ -170,12 +179,12 @@
         <option value="$PROJECT_DIR$/_posts/links/2015-01-01-recommended-blogs.md" />
         <option value="$PROJECT_DIR$/pages/archive.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/_layouts/blog-post.html" />
         <option value="$PROJECT_DIR$/pages/tags.html" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/pages/tag.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -289,6 +298,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheleng.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheleng.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -765,12 +792,12 @@
       <workItem from="1420677711433" duration="11242000" />
       <workItem from="1420699537617" duration="1665000" />
       <workItem from="1420768258567" duration="1762000" />
-      <workItem from="1420785493792" duration="6124000" />
+      <workItem from="1420785493792" duration="6432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51919000" />
+    <option name="totallyTimeSpent" value="52227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1004,11 +1031,6 @@
         <state line="31" column="19" selection-start="748" selection-end="754" vertical-scroll-proportion="0.3109091" vertical-offset="418" max-vertical-offset="1482" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="376" selection-end="376" vertical-scroll-proportion="0.45783132" vertical-offset="0" max-vertical-offset="3971" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/blog-post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="10" selection-start="779" selection-end="790" vertical-scroll-proportion="-12.774194" vertical-offset="117" max-vertical-offset="703">
@@ -1064,7 +1086,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="48" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.6218182" vertical-offset="741" max-vertical-offset="1425">
+        <state line="23" column="36" selection-start="650" selection-end="650" vertical-scroll-proportion="-6.7419353" vertical-offset="228" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="23" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.6481149" vertical-offset="912" max-vertical-offset="3990">
           <folding />
         </state>
       </provider>
