@@ -2,7 +2,7 @@
 layout: default
 title: 标签
 ---
-<div onshow="showTagPost()">
+<div>
   {% for tag in site.tags %}
     <ul id="{{ tag[0] }}" style="display: none">
       {% for post in tag[1] %}
@@ -30,3 +30,4 @@ title: 标签
     </ul>
   {% endfor %}
 </div>
+<script>showTagPost()</script>
