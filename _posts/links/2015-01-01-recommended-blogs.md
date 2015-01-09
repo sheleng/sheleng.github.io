@@ -20,5 +20,7 @@ link-list:
       url: http://mindhacks.cn/
     - title: 伍迷家园
       url: http://www.cnblogs.com/cj723/
+    - title: 当然我在扯淡
+      url: http://www.yinwang.org
 ---
 
