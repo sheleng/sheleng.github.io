@@ -73,22 +73,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tags.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/tags.html">
+      <file leaf-file-name="tags.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/json/tags.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="261" selection-end="261" vertical-scroll-proportion="-3.6774194" vertical-offset="0" max-vertical-offset="247">
+            <state line="7" column="1" selection-start="317" selection-end="317" vertical-scroll-proportion="-4.290323" vertical-offset="0" max-vertical-offset="247">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="1" selection-start="3082" selection-end="3082" vertical-scroll-proportion="0.8037866" vertical-offset="1053" max-vertical-offset="1634">
+            <state line="82" column="20" selection-start="3093" selection-end="3104" vertical-scroll-proportion="0.0" vertical-offset="1129" max-vertical-offset="1729">
               <folding>
-                <marker date="1420786920126" expanded="false" signature="459:493" placeholder="..." />
+                <marker date="1420789048678" expanded="false" signature="459:493" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tag.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/tag.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="32" selection-start="66" selection-end="66" vertical-scroll-proportion="0.13499112" vertical-offset="0" max-vertical-offset="703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="4" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="456">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,7 +114,7 @@
       <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="66" selection-start="1860" selection-end="1946" vertical-scroll-proportion="-16.935484" vertical-offset="463" max-vertical-offset="1539">
+            <state line="52" column="66" selection-start="1860" selection-end="1946" vertical-scroll-proportion="-13.258064" vertical-offset="577" max-vertical-offset="1539">
               <folding />
             </state>
           </provider>
@@ -105,7 +123,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="86" selection-start="1099" selection-end="1186" vertical-scroll-proportion="-2.451613" vertical-offset="741" max-vertical-offset="1425">
+            <state line="45" column="36" selection-start="1241" selection-end="1241" vertical-scroll-proportion="-3.6774194" vertical-offset="741" max-vertical-offset="1425">
               <folding />
             </state>
           </provider>
@@ -114,7 +132,7 @@
       <file leaf-file-name="blogs.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/blogs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="49" selection-end="866" vertical-scroll-proportion="-3.064516" vertical-offset="19" max-vertical-offset="703">
+            <state line="7" column="2" selection-start="60" selection-end="860" vertical-scroll-proportion="-3.6774194" vertical-offset="19" max-vertical-offset="703">
               <folding />
             </state>
           </provider>
@@ -155,6 +173,7 @@
         <option value="$PROJECT_DIR$/_layouts/blog-post.html" />
         <option value="$PROJECT_DIR$/pages/tags.html" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/pages/tag.html" />
       </list>
     </option>
   </component>
@@ -218,6 +237,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sheleng.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheleng.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sheleng.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,6 +347,7 @@
       <recent name="E:\programmer\projects\personal\sheleng.github.io\_posts\links" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\programmer\projects\personal\sheleng.github.io\public\json" />
       <recent name="E:\programmer\projects\personal\sheleng.github.io\_posts\tools" />
     </key>
   </component>
@@ -725,12 +763,12 @@
       <workItem from="1420677711433" duration="11242000" />
       <workItem from="1420699537617" duration="1665000" />
       <workItem from="1420768258567" duration="1762000" />
-      <workItem from="1420785493792" duration="1372000" />
+      <workItem from="1420785493792" duration="3540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47167000" />
+    <option name="totallyTimeSpent" value="49335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -904,28 +942,9 @@
         <state line="19" column="36" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="2071" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="21" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="21" selection-end="324" vertical-scroll-proportion="0.13818182" vertical-offset="0" max-vertical-offset="550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/tools.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="34" selection-start="676" selection-end="676" vertical-scroll-proportion="0.79777366" vertical-offset="26" max-vertical-offset="703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/links.html">
@@ -988,9 +1007,9 @@
         <state line="14" column="30" selection-start="376" selection-end="376" vertical-scroll-proportion="0.45783132" vertical-offset="0" max-vertical-offset="3971" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/blogs.html">
+    <entry file="file://$PROJECT_DIR$/public/json/tags.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="49" selection-end="866" vertical-scroll-proportion="-3.064516" vertical-offset="19" max-vertical-offset="703">
+        <state line="7" column="1" selection-start="317" selection-end="317" vertical-scroll-proportion="-4.290323" vertical-offset="0" max-vertical-offset="247">
           <folding />
         </state>
       </provider>
@@ -1002,33 +1021,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blogs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="60" selection-end="860" vertical-scroll-proportion="-3.6774194" vertical-offset="19" max-vertical-offset="703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="4" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="66" selection-start="1860" selection-end="1946" vertical-scroll-proportion="-16.935484" vertical-offset="463" max-vertical-offset="1539">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="86" selection-start="1099" selection-end="1186" vertical-scroll-proportion="-2.451613" vertical-offset="741" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tags.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="261" selection-end="261" vertical-scroll-proportion="-3.6774194" vertical-offset="0" max-vertical-offset="247">
+        <state line="52" column="66" selection-start="1860" selection-end="1946" vertical-scroll-proportion="-13.258064" vertical-offset="577" max-vertical-offset="1539">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="1" selection-start="3082" selection-end="3082" vertical-scroll-proportion="0.8037866" vertical-offset="1053" max-vertical-offset="1634">
+        <state line="82" column="20" selection-start="3093" selection-end="3104" vertical-scroll-proportion="0.0" vertical-offset="1129" max-vertical-offset="1729">
           <folding>
-            <marker date="1420786920126" expanded="false" signature="459:493" placeholder="..." />
+            <marker date="1420789048678" expanded="false" signature="459:493" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="36" selection-start="1241" selection-end="1241" vertical-scroll-proportion="-3.6774194" vertical-offset="741" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="66" selection-end="66" vertical-scroll-proportion="0.13499112" vertical-offset="0" max-vertical-offset="703">
+          <folding />
         </state>
       </provider>
     </entry>

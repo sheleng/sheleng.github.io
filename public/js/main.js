@@ -79,3 +79,8 @@ function getQueryParam(name) {
     var r = window.location.search.substr(1).match(reg);
     if (r != null) return unescape(r[2]); return null;
 }
+
+function showTagPost(){
+    var tag = getQueryParam('tag');
+    if(tag != null) document.getElementById(tag).addClass('active');
+}
