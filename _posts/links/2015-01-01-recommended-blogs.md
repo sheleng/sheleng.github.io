@@ -16,7 +16,7 @@ link-list:
       url: http://techsingular.net/
     - title: Tim[后端技术]
       url: http://timyang.net/
-    - title: Tim[后端技术]
-      url: http://timyang.net/
+    - title: 刘未鹏
+      url: http://mindhacks.cn/
 ---
 
