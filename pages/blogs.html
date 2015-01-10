@@ -8,8 +8,8 @@ blogs: active
   {% for post in site.posts %}
 	{% if post.category == 'blogs' %}
       	<li class="post-list">
-      	  <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-      	  <div>
+      	  <a href="{{ post.url }}" class="post-title"><h4>{{ post.title }}</h4></a>
+      	  <div class="post-description">
           	<p>{{ post.description }}</p>
           	<p>
               标签：                     

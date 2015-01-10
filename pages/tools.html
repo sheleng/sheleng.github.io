@@ -8,7 +8,7 @@ tools: active
   {% for post in site.posts %}
 	{% if post.category == 'tools' %}
       	<li class="post-list">
-      	  <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+      	  <a href="{{ post.url }} " class="post-title"><h4>{{ post.title }}</h4></a>
       	  <div>
           	<p>{{ post.description }}</p>
           	<p>
