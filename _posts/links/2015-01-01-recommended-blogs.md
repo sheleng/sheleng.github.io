@@ -6,6 +6,8 @@ category: recommended-links
 link-list:
     - title: 阮一峰
       url: http://www.ruanyifeng.com/blog/
+    - title: 廖雪峰
+      url: http://www.liaoxuefeng.com/
     - title: 并发编程网
       url: http://ifeve.com/
     - title: 酷壳
