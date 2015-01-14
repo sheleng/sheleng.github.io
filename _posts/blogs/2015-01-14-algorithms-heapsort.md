@@ -59,7 +59,7 @@ description:
 	    then largest = r;
 	  if largest != i
 	    then exchange A[i] <-> A[largest]
-		     max_heap_fix(A,largest,heap_size)
+	         max_heap_fix(A,largest,heap_size)
 
 `max_heap_fix(A,i,heap_size)`的时间复杂度为`O(lgn)`
 
