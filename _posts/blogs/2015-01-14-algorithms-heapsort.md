@@ -9,7 +9,7 @@ description:
 
 ###堆的数据结构
 
-(二叉)堆的数据结构是一种数组对象，但是其可以被视为一颗完全二叉树
+(二叉)堆的数据结构是一种数组对象，但是其可以被视为一棵完全二叉树
 （如下图所示）。树的每一层都是填满的，最后一层可能除外。
 
 ![](/public/images/posts/blogs/2015-01-14-algorithms-heapsort/heap-array-binary-tree.jpg)
