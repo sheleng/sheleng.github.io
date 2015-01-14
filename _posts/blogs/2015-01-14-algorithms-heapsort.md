@@ -56,9 +56,9 @@ description:
 	  if l <= heap_size and A[l] > A[i]
 	    then largest = l;
 	  if r <= heap_size and A[r] > A[i]
-		then largest = r;
+	    then largest = r;
 	  if largest != i
-		then exchange A[i] <-> A[largest]
+	    then exchange A[i] <-> A[largest]
 		     max_heap_fix(A,largest,heap_size)
 
 `max_heap_fix(A,i,heap_size)`的时间复杂度为`O(lgn)`
@@ -95,7 +95,7 @@ description:
 	  build_max_heap(A)
 	  for i <- length(A) - 1 downto 2
 	    do exchange A[1] <-> A[i]
-		   heap_size = heap_size - 1
-		   max_heap_fix(A,1,heap_size)
+	       heap_size = heap_size - 1
+	       max_heap_fix(A,1,heap_size)
 
 `heap_sort(A)`的时间复杂度为`O(nlgn)`
