@@ -1,15 +1,27 @@
+---
+layout: blog-post
+title: 堆排序
+autor: Sheleng
+category: blogs
+tags: [sort,heap,algorithms]
+description: 
+---
+
 ###堆的数据结构
 
-(二叉)堆的数据结构是一种数组对象，但是其可以被视为一颗完全二叉树（如下图所示）。树的每一层都是填满的，最后一层可能除外。
+(二叉)堆的数据结构是一种数组对象，但是其可以被视为一颗完全二叉树
+（如下图所示）。树的每一层都是填满的，最后一层可能除外。
+
+![](/public/images/posts/blogs/2015-01-14-algorithms-heapsort/heap-array-binary-tree.jpg)
 
 在树中，圆圈内的数字表示每个结点存储的值，结点上方的数字表示该结点在数组中的下标。
 
 表示堆的数组A具有两个属性：
 
 - length[A]是数组中的元素个数；
-- heap-size[A]是存放在A中的堆的元素个数。
+- heap-size是存放在A中的堆的元素个数。
 
-其中，0 <= heap-size[A] <= length[A]
+其中，0 <= heap-size <= length[A]
 
 在这里假设数组下标为1开始，树的根为A[1]，给定某个结点的下标`i`，可以通过以下方式简单的计算出i结点的父亲`parent（i）`，左儿子`left_child（i）`和右儿子`right_child（i）`的下标：
 
@@ -61,7 +73,7 @@
 伪代码如下：
 
 	build_max_heap(A)
-		heap_size[A] <- length(A)
+		heap_size <- length(A)
 		for i <- lenght[A] / 2 downto 1
 			do max_heap_fix(A,i,heap_size)
 
@@ -76,4 +88,16 @@
 
 3、交换元素后，原来根的子女仍是最大堆，而新的根元素可能违背最大堆性质，因此需要调用`max_heap_fix(A,1,heap_size)`来保存这一性质。
 
-4、重复步骤1，直到heap_size = 2。
+4、重复步骤1，直到堆的大小由`n-1`一直降到2。
+
+伪代码如下：
+
+	heap_sort(A)
+		heap_size <- length(A)
+		build_max_heap(A)
+		for i <- length(A) - 1 downto 2
+			do exchange A[1] <-> A[i]
+			   heap_size = heap_size - 1
+			   max_heap_fix(A,1,heap_size)
+
+`heap_sort(A)`的时间复杂度为`O(nlgn)`
