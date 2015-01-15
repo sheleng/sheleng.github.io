@@ -3,7 +3,7 @@ layout: blog-post
 title: 在Ubuntu系统中使用update-alternatives切换系统默认的Java版本
 autor: Sheleng
 category: blogs
-tags: [java,ubuntu]
+tags: [Java,Ubuntu]
 description: ubuntu系统中默认安装了OpenJDK，而在平时的开发中都是使用SUN JDK，并且现在大部分的软件对JDK的版本都有限制，可能存在默认的JDK版本已经过时的情况，这时就可以使用update-alternatives命令来切换系统默认的Java版本。
 ---
 

@@ -3,7 +3,7 @@ layout: blog-post
 title: Ubuntu下配置安装JDK1.7+Eclipse Classic 4.2.2
 autor: Sheleng
 category: blogs
-tags: [java,jdk,eclipse,ubuntu]
+tags: [Java,Eclipse,Ubuntu]
 description: 
 ---
 

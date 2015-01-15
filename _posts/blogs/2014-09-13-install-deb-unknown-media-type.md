@@ -3,7 +3,7 @@ layout: blog-post
 title: 安装deb软件包时出现Unknown media type in type **/** 的解决办法
 autor: Sheleng
 category: blogs
-tags: [kde.xml,ubuntu]
+tags: [Ubuntu]
 description: 自从更换过桌面环境后，安装deb软件包时经常会报Unknown media type in type **/** ，google了一下发现也有不少人遇到了想到的问题，在此记录下这个问题的解决办法。
 ---
 
