@@ -13,7 +13,7 @@ index: active
       </div>
       <div>
         <ul>
-		  {% for post in site.posts %}
+		  {% for post in site.posts limit:7 %}
 		    {% if post.category == 'blogs' or post.category == 'tools' %}
 		      <li>
                 <div class="post-list">

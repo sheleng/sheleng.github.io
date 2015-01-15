@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: （转）图书馆大妈教你折半查找、快速排序
+title: (转)图书馆大妈教你折半查找、快速排序
 autor: Sheleng
 category: blogs
 tags: [BinarySearch,QuickSort,Algorithms]
