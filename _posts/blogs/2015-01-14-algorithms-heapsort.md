@@ -3,7 +3,7 @@ layout: blog-post
 title: 堆排序
 autor: Sheleng
 category: blogs
-tags: [Heap,Sort,Algorithms]
+tags: [HeapSort,Algorithms]
 description: 
 ---
 
