@@ -3,7 +3,7 @@ layout: blog-post
 title: 堆排序
 autor: Sheleng
 category: blogs
-tags: [堆,排序,算法]
+tags: [Heap,Sort,Algorithms]
 description: 
 ---
 
