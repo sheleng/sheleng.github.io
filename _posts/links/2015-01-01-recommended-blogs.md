@@ -22,9 +22,8 @@ link-list:
       url: http://mindhacks.cn/
     - title: 伍迷家园
       url: http://www.cnblogs.com/cj723/
-    - title: 当然我在扯淡
-      url: http://www.yinwang.org
     - title: 程序员幽默
       url: http://www.cxyym.com
+    - title: OneCoder
+      url: http://www.coderli.com/
 ---
-
