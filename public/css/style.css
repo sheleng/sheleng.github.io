@@ -52,7 +52,7 @@ footer a:active  {text-decoration: none;}
 
 .post-title{width: 85%;font-size: 18px;}
 .post-description{width: 85%}
-.post-content{font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;font-size: 14px;line-height: 20px;}
+#post-content{font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;font-size: 14px;line-height: 20px;}
 
 .post-info {margin-bottom: 0;background-color: #fbfbfb;border: 1px solid #ccc;border-top: none;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;color: #999;}
 
