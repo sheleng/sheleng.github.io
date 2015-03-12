@@ -3,7 +3,7 @@ layout: blog-post
 title: (转)Java中抽象类与接口的区别
 autor: Sheleng
 category: blogs
-tags: [Java,Abstract-Class,Interface]
+tags: [Java,AbstractClass,Interface]
 description: 在Java语言中，abstract class和interface是支持抽象类定义的两种机制。正是由于这两种机制的存在，才赋予了Java强大的面向对象能力。
 ---
 
@@ -156,7 +156,7 @@ abstract class和interface在Java语言中都是用来进行抽象类（本文�
 7. 接口中的方法默认都是 public,abstract类型的。
 
 
-##结论
+##结论##
 
 abstract class和interface是Java语言中的两种定义抽象类的方式，它们之间有很大的相似性。但是对于它们的选择却又往往反映出对于问题领域中的概念本质的理解、对于设计意图的反映是否正确、合理，因为它们表现了概念间的不同的关系（虽然都能够实现需求的功能）。这其实也是语言的一种的惯用法，希望读者朋友能够细细体会。
 
