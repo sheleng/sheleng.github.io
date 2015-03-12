@@ -232,7 +232,7 @@ RFE: 6962931
 
 由于我本机上是使用Java HotSpot(TM) 64-Bit Server VM (build 24.65-b04, mixed mode)，在该虚拟机中，不再将字符串分配到Java常量池中，而是在Java堆中进行分配，所以不会造成运行时常量池溢出。
      
-参考资料：
+##参考资料：
 
 深入理解Java虚拟机：JVM高级特性与最佳实践
 
