@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://infosz.tengyunmall.cn:8083/TYXZ_OMMS/updateApp.action?apk=/X01FS/app/TengYunWaystationTemp.ipa</string>
+					<string>http://infosz.tengyunmall.cn:8083/TYXZ_OMMS/updateApp.action?apk=/X01FS/sz_app/TengYunWaystationTemp.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>

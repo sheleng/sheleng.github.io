@@ -10,7 +10,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://infogz.tengyunmall.cn:8093/TYXZ_OMMS/updateApp.action?apk=/X01FS/app/TengYunButlerTemp.ipa</string>
+					<string>http://infogz.tengyunmall.cn:8093/TYXZ_OMMS/updateApp.action?apk=/X01FS/gz_app/TengYunButlerTemp.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
