@@ -12,7 +12,7 @@ description:
 (二叉)堆的数据结构是一种数组对象，但是其可以被视为一棵完全二叉树
 （如下图所示）。树的每一层都是填满的，最后一层可能除外。
 
-![](/public/images/posts/blogs/2015-01-14-algorithms-heapsort/heap-array-binary-tree.jpg)
+![](/public/img/posts/blogs/2015-01-14-algorithms-heapsort/heap-array-binary-tree.jpg)
 
 在树中，圆圈内的数字表示每个结点存储的值，结点上方的数字表示该结点在数组中的下标。
 

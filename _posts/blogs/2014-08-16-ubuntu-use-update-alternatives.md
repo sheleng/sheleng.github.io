@@ -13,13 +13,13 @@ update-alternatives命令是专门用于维护系统命令链接符的工具，�
 
 以下是平时常用的java命令和javac命令的链接组信息：
 
-![](/public/images/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/1.png)
+![](/public/img/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/1.png)
 
-![](/public/images/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/2.png)
+![](/public/img/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/2.png)
 
 我们可以使用ls -l命令来验证下java命令所指向的路径是否与--display显示的信息是相同。
 
-![](/public/images/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/3.png)
+![](/public/img/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/3.png)
 
 由上图可知，在/usr/bin/目录下的java命令指向的路径与--display显示的信息是相同的。    
 
@@ -42,10 +42,10 @@ priority是用于指定path的优先级。
 
 最后指定加入的SUN JDK的java命令和javac命令的路径为系统java命令和javac命令的默认路径： 
 
-![](/public/images/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/4.png)
+![](/public/img/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/4.png)
 
-![](/public/images/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/5.png)
+![](/public/img/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/5.png)
 
 这样就将系统默认的java版本切换到我们自己的安装的java版本上了。最后我们验证一下
 
-![](/public/images/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/6.png)
+![](/public/img/posts/blogs/2014-08-16-ubuntu-use-update-alternatives/6.png)

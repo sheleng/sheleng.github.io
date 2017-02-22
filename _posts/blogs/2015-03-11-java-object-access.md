@@ -19,13 +19,13 @@ description:
 
 如果使用句柄访问方式，Java堆中将会划分出一块内存来作为句柄池，引用（reference）中存储的是对象的句柄地址，而句柄中包含了对象实例数据和类型数据各自的具体地址信息，具体结构如下图所示:
 
-![](/public/images/posts/blogs/2015-03-11-java-object-access/handle-access-object.png)
+![](/public/img/posts/blogs/2015-03-11-java-object-access/handle-access-object.png)
 
 ##使用直接指针访问：
 
 如果使用直接指针访问方式，Java堆对象的布局中就必须考虑如何放置访问类型数据的相关信息，引用（reference）中直接存储的就是对象实例数据的地址，具体结构如下图所示：
 
-![](/public/images/posts/blogs/2015-03-11-java-object-access/direct-pointer-access-object.png)
+![](/public/img/posts/blogs/2015-03-11-java-object-access/direct-pointer-access-object.png)
 
 ##总结
 

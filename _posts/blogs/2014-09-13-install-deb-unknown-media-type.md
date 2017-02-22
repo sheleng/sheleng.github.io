@@ -9,7 +9,7 @@ description: 自从更换过桌面环境后，安装deb软件包时经常会报U
 
 在安装astah uml时出现了如下问题：
 
-![](/public/images/posts/blogs/2014-09-13-install-deb-unknown-media-type/1.png)
+![](/public/img/posts/blogs/2014-09-13-install-deb-unknown-media-type/1.png)
 
 ####1、找到kde.xml文件，我这里的路径是：
 

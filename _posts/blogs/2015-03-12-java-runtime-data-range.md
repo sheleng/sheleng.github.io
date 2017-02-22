@@ -11,7 +11,7 @@ description: 对于Java程序员来说，在虚拟机的内存管理机制下不
 
 Java虚拟机在执行Java程序的过程中会把内存划分成若干个不同的区域。Java虚拟机所管理的内存将包含以下几个运行时数据区：
 
-![](/public/images/posts/blogs/2015-03-12-java-runtime-data-range/data-range.png)
+![](/public/img/posts/blogs/2015-03-12-java-runtime-data-range/data-range.png)
 
 ##程序计数器
 

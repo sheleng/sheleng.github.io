@@ -23,7 +23,7 @@ Maven是一个Java工具，所以在安装Maven前，需要确保你的机器上
 
 `vim ~/.bashrc`
 
-![](/public/images/posts/tools/2014-08-20-maven-use-records/vim-bashrc.png)
+![](/public/img/posts/tools/2014-08-20-maven-use-records/vim-bashrc.png)
 
 其中MAVEN_OPTS环境变量设置了JVM属性（可选），这个环境变量可以用于设置Maven的扩展选项。
 
@@ -33,4 +33,4 @@ Maven是一个Java工具，所以在安装Maven前，需要确保你的机器上
 
 最后运行mvn --version 验证安装
 
-![](/public/images/posts/tools/2014-08-20-maven-use-records/mvn-version.png)
+![](/public/img/posts/tools/2014-08-20-maven-use-records/mvn-version.png)
