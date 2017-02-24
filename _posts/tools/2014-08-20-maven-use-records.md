@@ -7,7 +7,7 @@ tags: [Java,Maven]
 description: Maven是基于项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的软件项目管理工具。
 ---
 
-####1、安装Maven
+#### 1、安装Maven
 Maven是一个Java工具，所以在安装Maven前，需要确保你的机器上已经安装了Java环境。
 
 
