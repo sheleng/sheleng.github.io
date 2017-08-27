@@ -11,15 +11,15 @@ description: 自从更换过桌面环境后，安装deb软件包时经常会报U
 
 ![](/public/img/posts/blogs/2014-09-13-install-deb-unknown-media-type/1.png)
 
-####1、找到kde.xml文件，我这里的路径是：
+#### 1、找到kde.xml文件，我这里的路径是：
 
 `/usr/share/mime/packages/kde.xml`
 
-####2、先对kde.xml文件进行备份：
+#### 2、先对kde.xml文件进行备份：
 
 `sudo cp /usr/share/mime/packages/kde.xml /usr/share/mime/packages/kde.xml.bak`
 
-####3、修改kde.xml文件，找到如下内容将其删除或注释掉：
+#### 3、修改kde.xml文件，找到如下内容将其删除或注释掉：
 
 	  <!-- all/ fake mime types -->
 	  <mime-type type="all/all">
@@ -49,6 +49,6 @@ description: 自从更换过桌面环境后，安装deb软件包时经常会报U
 	    <comment>rtspu: URIs</comment>
 	  </mime-type>
 
-####4、将修改后的文件保存并退出。
+#### 4、将修改后的文件保存并退出。
 
-####5、重新安装需要安装的deb软件包。
+#### 5、重新安装需要安装的deb软件包。
