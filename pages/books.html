@@ -54,7 +54,7 @@ books: active
                         {% elsif book.status == '在读' %}
                           <span class="label label-info">{{ book.status }}</span>
                         {% elsif book.status == '选读' %}
-                        <span class="label label-info">{{ book.status }}</span>
+                        <span class="label label-primary">{{ book.status }}</span>
                         {% elsif book.status == '未读' %}
                           <span class="label label-default">{{ book.status }}</span>
                         {% endif %}
